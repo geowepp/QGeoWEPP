@@ -6,7 +6,9 @@ QGeoWEPP was written by Han Zhang. This interface was developed based on the Geo
 
 ----------------------------------------------------------------------------
 
-LICENSE. QGeoWEPP uses GNU General Public License 3.0. 
+LICENSE. 
+
+QGeoWEPP uses GNU General Public License 3.0. 
          Please read it first. It is located in the LICENSE file.
 
 ----------------------------------------------------------------------------
