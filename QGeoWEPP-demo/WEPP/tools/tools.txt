@@ -1,0 +1,37 @@
+#---------------------------------------------------------------------
+# 
+# This is the configuration file for adding Python scripts to the WEPP Windows interface. The first column
+# indicates if the program works with hillslope (H) or watershed (W) files. The second
+# column is the name of program that gets displayed on the WEPP main screen. Upto 10 Python programs can be added to the interface.
+# The third column is the program to run, normally a Python script to execute. Following that are 0 or more arguments, the values
+# inside <> get expanded to file names from the current WEPP project that was run. Any arguments inside
+# <> that don't match predefined names are passed to the Python script unchanged. Any text after the # sign on the line is treated as
+# a comment that explains how the program works.
+# The scripts must be in the WEPP tools subdirectory. Any file names that are passed are relative to the tools subdirectory, such as ../runs
+# Any output sent to standard output is redirected to the file output.txt. This file is displayed in the popup Notepad window after the program has finished.
+#
+# The following is a list of the expansions that can be passed to a Python script:
+#    <OUT_WATER_FILE> - The water output file.
+#    <IN_SLOPE_FILE> - The slope input file.
+#    <OUT_MAIN_FILE>  - Main WEPP output file.
+#    <OUT_GRAPHICS_FILE> - Large graphics file
+#    <IN_CLI_FILE> - The climate input file
+#    <IN_SOIL_FILE> - The soil input file.
+#    <IN_MAN_FILE> - The management input file.
+#    <IN_RUN_FILE> - Run input options file.
+#    <ROOT_DIR> - The install directory for WEPP
+#
+# Jim Frankenberger
+# May 14, 2010
+#
+# The following are examples are included. To remove a program put a comment # as the first character, or delete the line.
+#----------------------------------------------------------------------
+H "Water Balance - Hillslope" "checkHillslopeWaterBalance.py" <OUT_WATER_FILE> <IN_SLOPE_FILE> <0> # Computes the water balance for the hillslope run.
+W "Water Balance - Watershed" "checkHillslopeWaterBalance.py" <OUT_WATER_FILE> <IN_SLOPE_FILE> <1> # Computes the water balance for the watershed run.
+H "Zip WEPP Hillslope Inputs (low level)" "weppzip.py" <IN_RUN_FILE> <IN_SLOPE_FILE> <IN_MAN_FILE> <IN_SOIL_FILE> <IN_CLI_FILE> # Zips all the model inputs into a file
+W "Zip WEPP Watershed Inputs (low level)" "weppzipshed.py" <IN_RUN_FILE> # Zips all the watershed model inputs into a file
+W "Zip WEPP Watershed Output Files" "weppzipoutputs.py" <IN_RUN_FILE> # Zips all the watershed model outputs into a file
+H "Zip WEPP Hillslope Output Files" "weppzipoutputs.py" <IN_RUN_FILE> # Zips all the hillslope model outputs into a file
+H "CLIGEN Statistics" "cligenstats.py" <IN_RUN_FILE> <IN_CLI_FILE> <0> # Reports cligen statistis by month
+W "CLIGEN Statistics" "cligenstats.py" <IN_RUN_FILE> <IN_CLI_FILE> <1> # Reports cligen statistis by month
+H "Example Parameters" "testhill.py" <OUT_WATER_FILE> <IN_SLOPE_FILE> <OUT_MAIN_FILE> <OUT_GRAPHICS_FILE> <IN_CLI_FILE> <IN_SOIL_FILE> <IN_MAN_FILE> <IN_RUN_FILE> <ROOT_DIR> <0> <1.3> <"hello world">  # Tests that all params are passed
