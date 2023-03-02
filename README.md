@@ -12,7 +12,7 @@ QGeoWEPP uses GNU General Public License 3.0.
          Please read it first. It is located in the LICENSE file.
 
 ----------------------------------------------------------------------------
-INSTALLATION AND RUNNING
+INSTALLATION AND RUNNING.
 
 Please install QGIS 3 or higher first, then follow the instruction below.
 
@@ -27,7 +27,7 @@ Please install QGIS 3 or higher first, then follow the instruction below.
 
 
 ------------------------------------------------------------------------------
-Validation Dataset ready:
+Validation Dataset ready.
 
 1. A set of dataset that has been parameterized and validated for the Lucky Hills watershed in the Walnut Gulch Experimental Watershed (Renschler and Zhang, 2020; Zhang et al., 2021) is included. 
 
