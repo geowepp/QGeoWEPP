@@ -24,7 +24,7 @@ Please install QGIS 3 or higher first, then follow the instruction below.
 
 
 
-
+------------------------------------------------------------------------------
 Validation Dataset ready:
 
 1. A set of dataset that has been parameterized and validated for the Lucky Hills watershed in the Walnut Gulch Experimental Watershed (Renschler and Zhang, 2020; Zhang et al., 2021) is included. 
