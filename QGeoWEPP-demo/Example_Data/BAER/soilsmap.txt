@@ -1,0 +1,6 @@
+"Value","Count","S_value"
+1,29110,LowBurnSeverity
+2,19076,ModerateBurnSeverity
+3,1738,Unburned
+4,3495,HighBurnSeverity
+5,6622,Nodata

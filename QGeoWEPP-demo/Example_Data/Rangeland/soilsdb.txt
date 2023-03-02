@@ -1,0 +1,27 @@
+SOILA|GeoWEPP\High severity fire-sandy loam.sol
+SOILB|GeoWEPP\Low severity fire-sandy loam.sol
+SOILC|GeoWEPP\20-yr forest sandy loam.sol
+SOILD|GeoWEPP\20-yr forest sandy loam.sol
+SOILE|GeoWEPP\Low severity fire-sandy loam.sol
+SOILF|in\ALLISON(SICL).sol
+SOILG|in\BATTLEGROUND(SIL).sol
+SOILH|in\BILLETT(SL).sol
+SOILI|KEITH.sol
+SOILJ|KEITH.sol
+SOILK|in\BRENTON(SIL).sol
+SOILL|in\CAMDEN(SIL).sol
+SOILM|in\CARMI(SL).sol
+SOILN|in\CERESCO(SL).sol
+SOILO|in\CHALMERS(SICL).sol
+SOILP|in\COHOCTAH(FSL).sol
+SOILQ|in\COLOMA(LS).sol
+SOILR|in\CROSBY(SIL).sol
+SOILS|KEITH.sol
+SOILT|in\DRUMMER(SICL).sol
+SOILU|in\DUPAGE(SIL).sol
+SOILV|in\ELSTON(SL).sol
+SOILW|in\FINCASTLE(SIL).sol
+SOILX|in\HIGH GAP VARIANT(SIL).sol
+SOILY|in\HONONEGAH(LCOS).sol
+SOILZ|KEITH.sol
+SOIL|in\KALAMAZOO(L).sol

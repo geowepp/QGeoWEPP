@@ -1,0 +1,5 @@
+1 Low Burn Severity
+2 Moderate Burn Severity
+3 Unburned
+4 High Burn Severity
+5 No Data

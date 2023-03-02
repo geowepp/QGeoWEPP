@@ -1,0 +1,27 @@
+High Intensity Residential|GeoWepp\grass.rot
+Row Crops|GeoWEPP\corn,soybean-fall mulch till.rot
+grass|Geowepp\grass.rot
+Fallow|GeoWepp\fallow tilled.rot
+No Data|GeoWEPP\grass.rot
+Mixed Forest|GeoWepp\Tree-20 yr old forest.rot
+Urban/Recreational Grasses|GeoWEPP\grass.rot
+Open Water|GeoWepp\grass.rot
+Transitional|GeoWepp\grass.rot
+Emergent Herbaceous Wetlands|GeoWEPP\grass.rot
+Low Intensity Residential|GeoWEPP\grass.rot
+Commercial/Industrial/Transportation|GeoWEPP\grass.rot
+Deciduous Forest|GeoWEPP\Tree-20 yr old forest.rot
+Low Burn Severity|GeoWEPP\90% cover-low severity burn.rot
+Evergreen Forest|GeoWEPP\Tree-20 yr old forest.rot
+Woody Wetlands|GeoWEPP\Mountain Big Sagebrush.rot
+Pasture/Hay|GeoWEPP\alfalfa with cuttings.rot
+High Burn Severity|GeoWEPP\25% cover-high severity burn.rot
+Bare Rock/Sand/Clay|GeoWepp\grass.rot
+Shrubland|GeoWepp\28% cover-short grass prarie.rot
+Unburned|GeoWEPP\Tree-20 yr old forest.rot
+Perennial Ice/Snow|GeoWepp\grass.rot
+Grasslands/Herbaceous|GeoWEPP\Mountain Big Sagebrush.rot
+Moderate Burn Severity|GeoWEPP\45% cover-moderate severity burn.rot
+Small Grains|GeoWepp\winter wheat, Conventional till.rot
+Orchards/Vineyards/Other|GeoWepp\grass.rot
+Quarries/Strip Mines/Gravel Pits|GeoWepp\grass.rot

@@ -1,0 +1,8 @@
+"Value","Count","S_value"
+11,29110,Water
+23,19076,Commercial
+31,1738,Barerock
+41,3495,Deciduous
+42,6622,Evergreen
+51,28712,Shrubland
+71,2953,Grassland
