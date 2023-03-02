@@ -1,0 +1,9 @@
+ ***** BEGINNING PROGRAM RASPRO.
+ ***** INITIALIZING AND READING GENERAL I/O.
+ *** BEGINNING SBRT OUTITL.
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!  ERROR  !!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ SUBROUTINE CHKFIL; MODULE GENIO1 (M_IOA.F90).
+ FILE OUTCNT.UNF   DOES NOT EXIST IN THE CURRENT DIRECTORY.
+ THIS FILE MUST EXIST IN THE CURRENT DIRECTORY.

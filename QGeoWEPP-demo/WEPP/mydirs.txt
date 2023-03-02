@@ -1,0 +1,3 @@
+Install Directory:		'C:\Users\hanna\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QGeoWEPP\WEPP'
+Data Directory:		'C:\Users\hanna\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QGeoWEPP\WEPP'
+Session Directory:		'C:\Users\hanna\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QGeoWEPP\WEPP'

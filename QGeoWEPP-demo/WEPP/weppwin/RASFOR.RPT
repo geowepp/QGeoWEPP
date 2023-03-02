@@ -1,0 +1,12 @@
+ ***** BEGINNING PROGRAM RASFOR.
+ *** BEGINNING SBRT OUTITL.
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!  ERROR  !!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ SUBROUTINE TESTIO; MODULE GENIO1 (M_IOA.F90).
+ READ STATEMENT ERROR: END-OF-FILE  OR  END-OF-RECORD.
+ DATA COULD NOT BE READ.
+ IOSTAT VALUE:    -1
+ INPUT FILE UNIT:  44
+ INPUT FILE NAME: OUTCNT.UNF  
+ RECORD NUMBER:      1

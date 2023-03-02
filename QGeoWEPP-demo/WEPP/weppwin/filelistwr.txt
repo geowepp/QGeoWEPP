@@ -1,0 +1,4 @@
+.\weppwin\default.pro
+.\tools\tools.txt
+.\data\climates\cligen\temp.par
+.\data\climates\cligen\countries.txt

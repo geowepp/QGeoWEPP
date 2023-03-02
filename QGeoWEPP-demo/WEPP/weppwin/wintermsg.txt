@@ -1,0 +1,1 @@
+Simulations of freeze/thaw conditions are much more detailed in this WEPP version so model runtime will be upto 8 times slower than WEPP version 2006.5. Some of the winter processing detail may be bypassed, leading to faster runs but less accuracy in winter runoff conditions. To adjust the winter processing choose the Option menu and then Winter Processes. 
