@@ -2,7 +2,7 @@
 
 Welcome to QGeoWEPP, a geo-spaital interface for Water Erosion Prediction Project based on QGIS3. 
 
-QGeoWEPP was written by Han Zhang. This interface was developed based on the ArcGIS-based GeoWEPP by Chris S. Renschler. 
+QGeoWEPP was written by Han Zhang. This interface was developed based on the GeoWEPP for ArcGIS by Chris S. Renschler with more functions to provide higher flexibility for soil erosion studies.
 
 ----------------------------------------------------------------------------
 
