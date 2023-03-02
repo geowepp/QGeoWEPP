@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Mon Nov 13 04:47:41 PM 2000
+#
+# Created with WEPPWIN verion: Nov 13 2000 
+#
+Version = 98.7
+Name = grass (continuous)
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.gra_3425
+
+Operations {
+}

@@ -1,0 +1,40 @@
+#
+# WEPP project for GeoWEPP Hillslope function
+#
+Version = 98.6
+Name = 23
+Comments {
+Represenative Slope 23
+}
+Units = Metric
+Landuse = 1
+Length = 132.404
+Profile {
+   File = "Hill_23.slp"
+}
+Climate {
+   File = "Indiana\LAFAYETTE 5 S IN.cli"
+}
+Soil {
+   Breaks = 0
+   default {
+      Distance = 132.404
+      File = "in\KALAMAZOO(L).sol"
+}
+}
+Management {
+   Breaks = 0
+   default {
+      Distance = 132.404
+      File = "GeoWEPP\alfalfa with cuttings.rot"
+}
+}
+RunOptions {
+Version = 1
+SoilLossOutputType = 1
+SoilLossOutputFile = AutoName
+PlotFile = AutoName
+GraphFile = AutoName
+SimulationYears = 2
+SmallEventByPass = 1
+}
