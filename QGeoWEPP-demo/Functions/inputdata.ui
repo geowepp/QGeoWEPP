@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGeoWEPPbDialogBase</class>
+ <widget class="QDialog" name="QGeoWEPPbDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>977</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>QGeoWEPP</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="lineEdit_project"/>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Project Directory:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Use Example Dataset:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="3">
+      <widget class="QPushButton" name="pushButton_lcDB">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="3">
+      <widget class="QPushButton" name="pushButton_lcDscp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="29" column="0" colspan="4">
+      <widget class="QDialogButtonBox" name="button_box">
+       <property name="font">
+        <font/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel</set>
+       </property>
+       <property name="centerButtons">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="pushButton_DEM">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLineEdit" name="lineEdit_soilDB">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="0" colspan="3">
+      <widget class="QCheckBox" name="checkBox_lc">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Do you want to load land cover data? If not, default files will be used.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="0" colspan="2">
+      <widget class="QLabel" name="label_lcDscp">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Description:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0" colspan="3">
+      <widget class="QCheckBox" name="checkBox_soil">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Do you want to load soil data? If not, default files will be used.</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Use Model Validation Dataset:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="2">
+      <widget class="QLineEdit" name="lineEdit_lc">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="26" column="0" colspan="2">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>MSCL (m):</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="3">
+      <widget class="QPushButton" name="pushButton_soilDB">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="3">
+      <widget class="QPushButton" name="pushButton_lc">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="2" colspan="2">
+      <widget class="QLineEdit" name="lineEdit_CSA"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0" colspan="2">
+      <widget class="QLabel" name="label_soilDB">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Database:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="3">
+      <widget class="QPushButton" name="pushButton_soilDscp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QLineEdit" name="lineEdit_soil">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="4">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>963</width>
+         <height>107</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>107</height>
+        </size>
+       </property>
+       <property name="pixmap">
+        <pixmap>../icons/logo.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="27" column="0" colspan="4">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="maximum">
+        <number>13</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="textVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0" colspan="2">
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>CRS(WGS84/UTM):</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0" colspan="2">
+      <widget class="QLabel" name="label_soil">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ASCII:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLineEdit" name="lineEdit_crs"/>
+     </item>
+     <item row="24" column="0" colspan="2">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>CSA (ha):</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="0" colspan="2">
+      <widget class="QLabel" name="label_lcDB">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Database:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="2">
+      <widget class="QLineEdit" name="lineEdit_lcDB">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>DEM：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QLineEdit" name="lineEdit_soilDscp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="26" column="2" colspan="2">
+      <widget class="QLineEdit" name="lineEdit_MSCL"/>
+     </item>
+     <item row="20" column="2">
+      <widget class="QLineEdit" name="lineEdit_lcDscp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="lineEdit_DEM"/>
+     </item>
+     <item row="8" column="3">
+      <widget class="QPushButton" name="pushButton_crs">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0" colspan="2">
+      <widget class="QLabel" name="label_soilDscp">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Description:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="0" colspan="2">
+      <widget class="QLabel" name="label_lc">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ASCII:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="3">
+      <widget class="QPushButton" name="pushButton_soil">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="4">
+      <widget class="QCheckBox" name="checkBox_own">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Do you want to use your own data?</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" colspan="2">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_baer">
+         <property name="text">
+          <string>BAER</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="pushButton_cwe">
+         <property name="text">
+          <string>CWE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_agri">
+         <property name="text">
+          <string>Agriculture</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="pushButton_ran">
+         <property name="text">
+          <string>Rangeland</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="2" colspan="2">
+      <widget class="QPushButton" name="pushButton_lh">
+       <property name="text">
+        <string>Lucky Hills</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soilDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soilDB</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lc</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soilDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_soilDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>QGeoWEPPbDialogBase</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soilDscp</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lcDB</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soilDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soil</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>331</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lcDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soilDscp</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soil</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lcDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soilDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_lc</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lcDscp</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_lcDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_soil</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lcDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lcDscp</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_lcDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lcDB</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lc</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soil</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lcDscp</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_lc</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_soilDB</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_soilDB</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_soil</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_soil</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_lc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lc</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_DEM</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_crs</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_DEM</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_crs</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>929</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_2</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_3</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_6</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_project</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_DEM</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_crs</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_project</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_4</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_CSA</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_5</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>591</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_MSCL</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>591</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_soil</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_lc</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_7</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_agri</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>358</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_baer</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>710</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_cwe</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>358</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_ran</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>710</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_8</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>92</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_own</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_lh</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

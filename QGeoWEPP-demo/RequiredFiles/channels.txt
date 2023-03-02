@@ -1,0 +1,5 @@
+1|OnEarth|1
+2|OnGravel|2
+3|OnGravel|2
+4|OnGravel|3
+5|OnRock|3

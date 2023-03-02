@@ -1,0 +1,23 @@
+Open Water|grass.rot
+Perennial Icd/Snow|GeoWEPP/grass.rot
+Low Density Residential|GeoWEPP/grass.rot
+High Density Residential|GeoWepp/grass.rot
+Commercial/Industrial/Transportation|GeoWEPP/grass.rot
+Bare Rock/Sand/Clay|GeoWEPP/grass.rot
+Quarries/Strip Mines/Gravel Pits|GeoWEPP/grass.rot
+Transitional|GeoWEPP/grass.rot
+Deciduous Forest|GeoWEPP/Tree-20 yr old forest.rot
+Evergreen Forest|GeoWEPP/Tree-20 yr old forest.rot
+Mixed Forest|GeoWEPP/Tree-20 yr old forest.rot
+Shrubland|GeoWEPP/28% cover-short grass prarie.rot
+Orchards/Vineyards/Other|GeoWEPP/grass.rot
+Grasslands/Herbaceous|GeoWEPP/Mountain Big Sagebrush.rot
+Pasture/Hay|GeoWEPP/alfalfa with cuttings.rot
+Row Crops|GeoWEPP/corn,soybean-fall mulch till.rot
+Small Grains|GeoWEPP/winter wheat, Conventional till.rot
+Fallow|GeoWEPP/fallow tilled.rot
+Urban/Recreational Grasses|GeoWEPP/grass.rot
+Woody Wetlands|GeoWEPP/Mountain Big Sagebrush.rot
+Emergent Herbaceous Wetlands|GeoWEPP/grass.rot
+grass|grass.rot
+No Data|GeoWEPP/grass.rot
