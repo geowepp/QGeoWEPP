@@ -6,7 +6,7 @@ Batch Processing for Soil Redistribution
                               -------------------
         begin                : 2021-06-11
         git sha              : $Format:%H$
-        author               : (C) 2022 by Han Zhang, Chris S. Renschler
+        author               : (C) 2022 by Han Zhang
         email                : support@geowepp.org
  ***************************************************************************/
 
