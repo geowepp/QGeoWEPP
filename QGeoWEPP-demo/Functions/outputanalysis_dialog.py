@@ -6,7 +6,7 @@ Output Analysis
                              -------------------
         begin                : 2021-06-11
         git sha              : $Format:%H$
-        copyright            : (C) 2022 by Han Zhang, Chris S. Renschler
+        copyright            : (C) 2022 by Han Zhang
         email                : support@geowepp.org
  ***************************************************************************/
 
