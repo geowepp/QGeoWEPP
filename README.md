@@ -18,11 +18,13 @@ Please install QGIS 3 or higher first, then follow the instruction below.
 
 1. Download the QGeoWEPP-demo as ZIP file.
 
+2. Unzip the file, compress the 'QGeoWEPP-demo' folder to .ZIP file.
+
 2. On the menu bar of QGIS, click Plugins --> Manage and Install Plugins. The Plugins manager will pop up.
 
-3. Click 'Install from ZIP'. Click '...' to navigate to ZIP file you have justed downloaded.
+3. Click 'Install from ZIP'. Click '...' to navigate to ZIP file you have justed compressed.
 
-4. Go back to Plugins manager, click 'Installed', mark the QGeoWEPP plugin. You should be able to see the menu bar for QGeoWEPP.
+4. Go back to Plugins manager, click 'Installed', mark the QGeoWEPP plugin on (if it is not marked automatically). You should be able to see the menu bar for QGeoWEPP.
 
 
 
