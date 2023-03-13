@@ -1,0 +1,44 @@
+#
+# WEPP project written: Thu Mar 24 02:36:25 PM 2022 
+#
+Version = 98.6
+Name = corn_H2
+Comments {
+
+}
+Units = Metric
+Landuse = 1
+Length = 118.647
+Profile {
+   Data {
+	89.1660  206.0220
+	5  118.6470
+	0, 0 0.2, 0.08 0.47, 0.01 0.72, 0.15 1, 0.005 
+   }
+}
+Climate {
+   File = "weppdemo.cli"
+}
+Soil {
+   Breaks = 0
+   Duncanon  {
+      Distance = 118.647
+      File = "DUNCANON.sol"
+   }
+}
+Management {
+   Breaks = 0
+   continuous corn - fall moldboard plow {
+      Distance = 118.647
+      File = "agriculture\corn-fall moldboard plow.rot"
+   }
+}
+RunOptions {
+   Version = 1
+   HillSlopePassFile = AutoName
+   SoilLossOutputType = 1
+   SoilLossOutputFile = AutoName
+   PlotFile = AutoName
+   SimulationYears = 2
+   SmallEventByPass = 1
+}

@@ -1,0 +1,48 @@
+#
+# WEPP project written: (watershed temp hillslope) 
+#
+Version = 98.6
+Name = fallow tilled_H3
+Comments {
+
+}
+Units = Metric
+Landuse = 1
+Length = 96.347
+Profile {
+   Data {
+	269.1660  206.0220
+	8  96.3470
+	0, 0 0.02344, 0.02 0.211, 0.02 0.2688, 0.09 0.5438, 0.09 0.6203, 0.03 0.9578, 0.03 1, 0.015 
+	Segments = 3 20.000000 0 0.000000 0 0.000000
+	1  22.583019 2.000000
+	2  33.118965 9.000000
+	3  40.645016 3.000000
+   }
+}
+Climate {
+   File = "weppdemo.cli"
+}
+Soil {
+   Breaks = 0
+   belmore {
+      Distance = 96.347
+      File = "belmore.sol"
+   }
+}
+Management {
+   Breaks = 0
+   fallow - tilled {
+      Distance = 96.347
+      File = "agriculture\fallow tilled.rot"
+   }
+}
+RunOptions {
+   Version = 1
+   HillSlopePassFile = AutoName
+   SoilLossOutputType = 1
+   SoilLossOutputFile = AutoName
+   PlotFile = AutoName
+   SimulationYears = 2
+   SmallEventByPass = 1
+}
