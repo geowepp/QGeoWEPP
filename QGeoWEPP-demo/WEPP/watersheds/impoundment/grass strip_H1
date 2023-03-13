@@ -1,0 +1,48 @@
+#
+# WEPP project written: (watershed temp hillslope) 
+#
+Version = 98.6
+Name = grass strip_H1
+Comments {
+
+}
+Units = Metric
+Landuse = 1
+Length = 127.424
+Profile {
+   Data {
+	179.1660  148.0130
+	8  127.4240
+	0, 0 0.02344, 0.02 0.211, 0.02 0.2688, 0.09 0.5438, 0.09 0.6203, 0.03 0.9578, 0.03 1, 0.015 
+	Segments = 3 20.000000 0 0.000000 0 0.000000
+	1  29.867243 2.000000
+	2  43.801590 9.000000
+	3  53.755173 3.000000
+   }
+}
+Climate {
+   File = "weppdemo.cli"
+}
+Soil {
+   Breaks = 0
+   belmore  {
+      Distance = 127.424
+      File = "belmore.sol"
+   }
+}
+Management {
+   Breaks = 0
+   grass (continuous) {
+      Distance = 127.424
+      File = "grass.rot"
+   }
+}
+RunOptions {
+   Version = 1
+   HillSlopePassFile = AutoName
+   SoilLossOutputType = 1
+   SoilLossOutputFile = AutoName
+   PlotFile = AutoName
+   SimulationYears = 2
+   SmallEventByPass = 1
+}
