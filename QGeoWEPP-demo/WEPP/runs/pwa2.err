@@ -1,0 +1,229 @@
+
+
+
+
+  ********************************************************************
+  *                                                                  *
+  *                                                                  *
+  *              USDA - WATER EROSION PREDICTION PROJECT             *
+  *                                                                  *
+  *                    HILLSLOPE PROFILE - WATERSHED                 *
+  *                           EROSION MODEL                          *
+  *                                                                  *
+  *                    CONTINUOUS SIMULATION AND                     *
+  *                       SINGLE STORM OPTIONS                       *
+  *                 MAXIMUM WATERSHED CHANNELS:   75                 *
+  *                                                                  *
+  *                                                                  *
+  *                          VERSION 2012.800                        *
+  *                                                                  *
+  *                        August 30,     2012                       *
+  *                                                                  *
+  *                                                                  *
+  *                                                                  *
+  ********************************************************************
+
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+ English units selected
+
+
+ Do you wish to drop out of the model upon invalid input and
+ write over identical output file names? (batch mode)
+
+ Enter N to run watershed option (not a SHELL option).
+
+ Enter Y or N --> [Y]
+
+ Continuous or single event option
+ ---------------------------------
+ 1 - continuous simulation
+ 2 - single storm
+
+ Enter option (1 or 2) --> [1]
+
+
+ Model version option
+ --------------------
+ 1 - hillslope version (single hillslope only)
+ 2 - hillslope/watershed version
+     (multiple hillslopes, channels, and impoundments)
+ 3 - watershed version (channels and impoundments)
+     (option 2 or 3 must be previously selected)
+
+ Enter option (1,2 or 3) --> [1] 
+
+  Enter name of master watershed pass file -->                     
+
+ file name read in: ..\output\pass_pw2.txt                             
+
+ Multiple hillslopes or hillslope/watershed version
+ --------------------------------------------------
+ Enter the number of hillslopes --> 
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+
+ Do you wish to use an existing hillslope pass file?
+
+ Enter Y or N --> [N]
+ *** NOTE ***
+
+
+  Enter name of existing hillslope pass file -->                   
+
+ file name read in: H1_pass.txt                                        
+
+ Hillslope  1 SUCCESSFUL simulation
+
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+
+ Do you wish to use an existing hillslope pass file?
+
+ Enter Y or N --> [N]
+ *** NOTE ***
+
+
+  Enter name of existing hillslope pass file -->                   
+
+ file name read in: H2_pass.txt                                        
+
+ Hillslope  2 SUCCESSFUL simulation
+
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+
+ Do you wish to use an existing hillslope pass file?
+
+ Enter Y or N --> [N]
+ *** NOTE ***
+
+
+  Enter name of existing hillslope pass file -->                   
+
+ file name read in: H3_pass.txt                                        
+
+ WRITING HILLSLOPE --> WATERSHED PASS FILE INFORMATION
+
+
+ WEPP COMPLETED HILLSLOPE/WATERSHED SIMULATION SUCCESSFULLY
+
+
+
+ Do you wish to model impoundments on the watershed?
+
+ Enter Y or N --> [N]
+
+ Do you want initial condition scenario output (Y/N)? [N] --> 
+
+ Soil loss output options for watershed simulation
+ ---- ---- ------ ------- --- ---------- ----------
+ [0] - Abbreviated annual  average for watershed
+  1  - Abbreviated yearly  average for watershed
+  2  - Abbreviated monthly average for watershed
+  3  - Abbreviated annual  average for SUB-watersheds
+  4  - Abbreviated yearly  average for SUB-watersheds
+  5  - Abbreviated monthly average for SUB-watersheds
+ --------------------------------------------------
+ Enter watershed soil loss output option [0]
+
+
+  Enter file name for watershed erosion output -->                 
+
+ file name read in: ..\output\loss_pw2.txt                             
+
+ Do you want water balance output (Y/N)? [N] --> 
+
+ Do you want crop output (Y/N)? [N] --> 
+
+ Do you want soil output (Y/N)? [N] --> 
+
+ Do you want channel erosion plotting output (Y/N)? [N] --> 
+
+  Enter file name for channel plotting output -->                  
+
+ file name read in: ..\output\plot_pw2.txt                             
+                     *** NOTE ***
+ Channel erosion plotting disabled at this time
+
+ Do you want watershed large graphics output (Y/N)? [N] --> 
+
+ Do you want event by event output (Y/N)? [N] --> 
+
+ Do you want final summary output (Y/N)? [N] --> 
+
+ Do you want daily winter output (Y/N)? [N] --> 
+
+ Do you want plant yield output (Y/N)? [N] --> 
+
+ Do you want impoundment output (Y/N)? [N] --> 
+
+  Enter name of file containing watershed structure data -->       
+
+ file name read in: pw2.str                                            
+
+  Enter name of file containing watershed channel data -->         
+
+ file name read in: pw2.chn                                            
+
+  Enter name of file containing impoundment data -->               
+
+ file name read in: pw2.imp                                            
+
+  Enter name of file containing management data -->                
+
+ file name read in: pw2.man                                            
+  1.000000000000000E-005  1.000000000000000E-005  0.500000000000000     
+
+  Enter name of file containing slope data -->                     
+
+ file name read in: pw2.slp                                            
+
+  Enter name of file containing storm data -->                     
+
+ file name read in: pw2.cli                                            
+
+  Enter name of file containing soil data -->                      
+
+ file name read in: pw2.sol                                            
+ Please enter the irrigation option
+ ----------------------------------
+ [0] no irrigation
+  1  sprinkler, fixed date
+  2  sprinkler, depletion level
+  3  sprinkler, combination
+  4  furrow,    fixed date
+  5  furrow,    depletion
+  6  furrow,    combination
+ -----------------------------------
+ Enter irrigation option [0]
+
+
+ NO IRRIGATION SELECTED.
+
+
+  Enter number of years to simulate --> 
+     
+ SIMULATION YEAR =           1
+ ROUTING  hillslope pass file event on day   42 of year    1
+ ROUTING runoff event on channel   1 on day   42 of year    1

@@ -1,0 +1,14 @@
+99.1
+1
+2
+1.000000
+Waterway channel with rock base
+**Make sure erodibility and shear stress match soil file
+Bill Eliot based on L. Tysdal 2/98
+2
+1
+1
+0
+19.99000 0.04000
+0.30000 0.00060 100.00000 0.50000 0.10000
+0.02000 4.00000 0.04000
