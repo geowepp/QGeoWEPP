@@ -1,0 +1,59 @@
+
+
+
+
+  ********************************************************************
+  *                                                                  *
+  *                                                                  *
+  *              USDA - WATER EROSION PREDICTION PROJECT             *
+  *                                                                  *
+  *                    HILLSLOPE PROFILE - WATERSHED                 *
+  *                           EROSION MODEL                          *
+  *                                                                  *
+  *                    CONTINUOUS SIMULATION AND                     *
+  *                       SINGLE STORM OPTIONS                       *
+  *                 MAXIMUM WATERSHED CHANNELS:   75                 *
+  *                                                                  *
+  *                                                                  *
+  *                          VERSION 2012.800                        *
+  *                                                                  *
+  *                        August 30,     2012                       *
+  *                                                                  *
+  *                                                                  *
+  *                                                                  *
+  ********************************************************************
+
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+ Metric units selected
+
+
+ Do you wish to drop out of the model upon invalid input and
+ write over identical output file names? (batch mode)
+
+ Enter N to run watershed option (not a SHELL option).
+
+ Enter Y or N --> [Y]
+
+ Continuous or single event option
+ ---------------------------------
+ 1 - continuous simulation
+ 2 - single storm
+
+ Enter option (1 or 2) --> [1]
+
+
+ Model version option
+ --------------------
+ 1 - hillslope version (single hillslope only)
+ 2 - hillslope/watershed version
+     (multiple hillslopes, channels, and impoundments)
+ 3 - watershed version (channels and impoundments)
+     (option 2 or 3 must be previously selected)
+
+ Enter option (1,2 or 3) --> [1] 
