@@ -1,0 +1,16 @@
+99.1
+14
+"lenth of riser box section(lenrs)"	"m"
+"width of riser box section(widrs)"	"m"
+"stage of riser inlet(hrs)"	"m"
+"weir coefficient(coefw)"	""
+"orifice coefficient(coefo)"	""
+"hieght of barrel box section(hitbl)"	"m"
+"width of barrel box section(widbl)"	"m"
+"height of riser above barrel bottom(hrh)"	"m"
+"lenght of barrel(lbl)"	"m"
+"slope of barrel(sbl)"	"m/m"
+"hieght of barrel outlet above exit channel bottom(hblot)"	"m"
+"Entrance head loss coefficient(ke)"	""
+"Bend head loss coefficient(kb)"	""
+"Friction head loss coefficient(kc)"	""

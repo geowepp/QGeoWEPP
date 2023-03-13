@@ -1,0 +1,16 @@
+99.1
+14
+"Stage at which the overtop flag goes off(htop)"	"m"
+"Stage at which the full of sediment flag goes off(hfull)"	"m"
+"Stage at the beginning of the simulation(h)"	"m"
+"Initital time step(deltat)"	"hr"
+"Infiltration rate(qinf)"	"m/d"
+"Structure size(isize)"	""
+"Number of particle size subclass divisions(ndiv)"	""
+"Number of stage-area-lenght points utilized(nalpts)"	""
+"Minimum stage(hmim)"	"m"
+"Area at minimum stage(a0)"	"m2"
+"Length at minimum stage(l0)"	"m"
+"Stage at point i(must be > 0.0)(hal)"	"m"
+"Area at point i(area)"	"m2"
+"Length at point i(length)"	"m"

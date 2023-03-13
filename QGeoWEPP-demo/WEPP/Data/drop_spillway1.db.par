@@ -1,0 +1,14 @@
+99.1
+12
+"diameter or riser(diars)"	"m"
+"stage of riser inlet(hrs)"	"m"
+"weir coefficient(coefw)"	""
+"orifice coefficient(coefo)"	""
+"diameter of barrel(diabl)"	"m"
+"height of riser above barrel bottom(hrh)"	"m"
+"lenght of barrel(lbl)"	"m"
+"slope of barrel(sbl)"	"m/m"
+"hieght of barrel outlet above exit channel bottom(hblot)"	""
+"Entrance head loss coefficient(ke)"	""
+"Bend head loss coefficient(kb)"	""
+"Friction head loss coefficient(kc)"	""

@@ -1,0 +1,47 @@
+99.12
+33
+Plant Growth and Harvest Parameters {
+	3	"Biomass energy ratio"  "KG/MJ"   ""
+	6	"Growing degree days to emergence" "CDAYS"  "0"
+	16	"Growing degree days for growing season" "CDAYS" "0"
+	24	"In-row plant spacing"   "CM" "0"
+	10	"Plant stem diameter at maturity"  "CM"  "0"
+	8	"Height of post-harvest standing residue; cutting height" "CM"  "0"
+	17	"Harvest index (dry crop yield/total above ground dry biomass)" "%" ""
+}
+Temperature and Radiation Parameters {
+	4	"Base daily air temperature" "C"  "-100,100"
+	22	"Optimal temperature for plant growth"  "C" "-100,100"
+	29	"Maximum temperature that stops the growth of a perennial crop" "C" "-100,100"
+	30	"Critical freezing temperature for a perennial crop" "C" "-100,100"
+	13	"Radiation extinction coefficient" "" ""
+}
+Canopy, LAI and Root Parameters {
+	1	"Canopy cover coefficient"  ""  ""
+	2	"Parameter value for canopy height equation"  ""  ""
+	18	"Maximum canopy height" "CM" "0"
+	31	"Maximum leaf area index" "" ""
+	25	"Maximum root depth"  "CM"  "0"
+	26	"Root to shoot ratio (% root growth/% above ground growth)"  "%" ""
+	27	"Maximum root mass for a perennial crop"  "KG/M2"  "0"
+}
+Senescence Parameters {
+	11	"Percent of growing season when leaf area index starts to decline (0-100%)"  "%" "0,100"
+	28	"Period over which senescence occurs" "days" "0"
+	9	"Percent canopy remaining after senescence (0-100%)"   "%"  "0,100"
+	12	"Percent of biomass remaining after senescence (0-100%)"   "%" "0,100"
+}
+Residue Parameters {
+	5	"Parameter for flat residue cover equation" "M2/KG" ""
+	14	"Standing to flat residue adjustment factor (wind, snow, etc.)"  "%"  ""
+	20	"Decomposition constant to calculate mass change of above-ground biomass" "" ""
+	21	"Decomposition constant to calculate mass change of root-biomass"  "" ""
+	19	"Use fragile or non-fragile mfo values" "" ""
+}
+Other Parameters {
+	23	"Plant specific drought tolerance (% of soil porosity)" "%" "0,100"
+	7	"Critical live biomass value below which grazing is not allowed" "KG/M2" "0"
+	15	"Maximum Darcy Weisbach friction factor for living plant"   "" ""
+	0	"Harvest Units"   ""  ""
+	32	"Optimum yield under no stress conditions" "KG/M2" ""
+}

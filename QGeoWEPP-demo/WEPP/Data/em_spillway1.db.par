@@ -1,0 +1,12 @@
+99.1
+10
+"Bottom width of the exit channel(bwes)"	"m"
+"Side slopes of the exit channel(sses)"	"m/m"
+"Manning roughness coefficient for the vegetaion in the exit channel(nes)"	""
+"Stage of the exit channel(hes)"	"m"
+"Maximum stage for flow through the exit channel(hmxes)"	"m"
+"Slope of section #1 of the exit channe(ses1)"	"m/m"
+"Length of section #1 of exit channel(les1)"	"m"
+"Slope of section #2 of the exit channe(ses2)"	"m/m"
+"Length of section #2 of exit channel(les2)"	"m"
+"Slope of section #3 of the exit channe(ses3)"	"m/m"

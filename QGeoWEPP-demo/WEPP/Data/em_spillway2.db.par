@@ -1,0 +1,6 @@
+99.1
+4
+"number of points of the stage-discharge relationship(npts)"	""
+"Stage of the beginning of the user defined stage-discharge relationship(hes)"	"m"			
+"Stage of the user defined stage-discharge relationship(hest)"	"m"				
+"Discharge of the user defined stage-discharge relationship(qes)"	"m3/s"

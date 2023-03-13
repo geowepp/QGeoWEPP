@@ -1,0 +1,113 @@
+Version 99.5
+Climate {
+   1 	"Precipitation" (mm)    
+   9 	"5 day average mimimum temp." (C)
+   10 "5 day average maximum temp." (C)
+   11  "daily minimum temp." (C)
+   12  "daily maximum temp." (C)
+}
+Soil Loss/Sediment Yield over entire Hillslope {
+   2  "Average detachment"   (kg/m**2)
+   3  "Maximum detachment"   (kg/m**2)    
+   4  "Point of maximum detachment" (m)
+   5  "Average Deposition"  (kg/m**2)
+   6  "Maximum Deposition"  (kg/m**2)
+   7  "Point of maximum deposition" (m)
+   8  "Sediment Leaving Profile" (kg/m)
+}
+Hydrology and Erosion Parameter Outputs {
+	13  "Irrigation depth" (mm) 
+	14  "Irrigation_volume_supplied/unit_area" (mm) 
+	15  "Runoff" (mm)   
+	46  "Peak runoff" (mm/h)   
+ 	47  "Effective runoff duration" (h) 
+	45  "Effective Rainfall intensity" (mm/h) 
+	48  "Enrichment ratio of specific surface area of the sediment leaving OFE" 
+	16  "Interrill net soil loss" (kg/m**2)
+	91  "Sediment Leaving OFE" (kg/m)
+  	49  "Adjusted Ki" (millions kg-s/m**4)           
+      50  "Adjusted Kr" (x 1000 s/m)                   
+      51  "Adjusted Tauc" (Pascals)                                                                                                                                                            
+}
+Hydraulic Parameter Outputs {
+ 	52  "Rill width" (m) 
+	76  "Rill ground cover friction factor for cropland areas"
+      77  "Fric. fac. due to live plant"
+      78  "Rill total fric fac cropland"                 
+      80  "Rill cov fric fac rangeland"                  
+      81  "Live basal area fric fac rangeland"           
+      82  "Live plant canopy fric fac rangeland"
+	79  "Composite area total friction factor"                                          
+}
+Water Balance Outputs {
+	42  "Evapotranspiration" (mm) 
+	53  "Plant Transpiration" (mm) 
+	54  "Soil Evaporation" (mm) 
+	55  "Seepage" (mm)
+	59  "Soil water in layer 1" (mm)                 
+      60  "Soil water in layer 2" (mm)                 
+      61  "Soil water in layer 3" (mm)                 
+      62  "Soil water in layer 4" (mm)                 
+      63  "Soil water in layer 5" (mm)                 
+      64  "Soil water in layer 6" (mm)                 
+      65  "Soil water in layer 7" (mm)                 
+      66  "Soil water in layer 8" (mm)                 
+      67  "Soil water in layer 9" (mm)                 
+      68  "Soil water in layer 10" (mm)  
+	58  "Total soil water" (mm)                                                                                                                             
+      43  "Drainage flux" (m/day)                      
+      44  "Depth to drainable zone" (m)                                           
+}
+Soil Parameter Outputs {
+	40  "Effective hydraulic conductivity" (mm/hr)
+	39  "Bulk density" (g/cc)                           
+	38  "Porosity" (%)  
+	41  "Suction across wetting front" (mm)                                       
+	69  "Random roughness" (mm)                      
+      70  "Ridge height" (mm)    
+	83  "Days since last disturbance"                                      
+}      
+
+Live Plant Parameter Outputs {
+	22  "Above ground live biomass" (kg/m**2)
+	84  "Current crop type"                           
+	17  "Canopy height" (m)                          
+      18  "Canopy cover" (0-1)                         
+      19  "Leaf area index" 
+	23  "Live root mass for OFE" (kg/m**2)           
+      24  "Live root mass 0-15 cm depth" (kg/m**2)     
+      25  "Live root mass 15-30 cm depth" (kg/m**2)    
+      26  "Live root mass 30-60 cm depth" (kg/m**2)    
+      27  "Root depth" (m) 
+	56  "Water stress"                               
+      57  "Temperature stress"                                                     
+}                                  
+
+Residue Parameter Outputs {
+	20  "Interrill cover" (0-1)                      
+      21  "Rill cover" (0-1)  
+	28  "Standing dead biomass" (kg/m**2)            
+      29  "Current residue mass on ground" (kg/m**2)   
+      30  "Previous residue mass on ground" (kg/m**2)  
+      31  "Old residue mass on the ground" (kg/m**2)   
+      32  "Current submerged residue mass" (kg/m**2)   
+      33  "Previous submerged residue mass" (kg/m**2)  
+      34  "Old submerged residue mass" (kg/m**2)       
+      35  "Current dead root mass" (kg/m**2)           
+      36  "Previous dead root mass" (kg/m**2)          
+      37  "Old dead root mass" (kg/m**2) 
+	85  "Current residue on ground type"             
+      86  "Previous residue on ground type"            
+      87  "Old residue on ground type"                 
+      88  "Current dead root type"                     
+      89  "Previous dead root type"                    
+      90  "Old dead root type"       
+}                           
+
+Winter Parameter Outputs {
+	71  "Frost depth" (mm)                           
+      72  "Thaw depth" (mm)                            
+      73  "Snow depth" (mm)                            
+      74  "Water from snow melt" (mm)                  
+      75  "Snow density" (kg/m**3)                     
+}

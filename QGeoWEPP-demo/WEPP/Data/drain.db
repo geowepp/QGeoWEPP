@@ -1,0 +1,83 @@
+99.1
+#
+# drainage database modified: Thu May 13 04:40:14 PM 1999
+#
+6
+#
+# drainage scenario 1 of 6
+#
+clay1 1
+Clay tile 3" 
+Clay tile 3" 
+Wepp distribution database
+example created by jrf
+1  #landuse
+0.91441 0.01016 0.07620 24.38430 
+
+
+
+#
+# drainage scenario 2 of 6
+#
+clay3 1
+Clay tile 4" 
+Clay tile 4" 
+Wepp distribution database
+example created by jrf
+1  #landuse
+0.91441 0.01270 0.10160 21.33626 
+
+
+
+#
+# drainage scenario 3 of 6
+#
+clay2 1
+Clay tile 6" 
+Clay tile 6" 
+Wepp distribution database
+example created by jrf
+1  #landuse
+1.21921 0.02540 0.15240 24.38430 
+
+
+
+#
+# drainage scenario 4 of 6
+#
+None 1
+None
+No drainage
+Wepp distribution database
+This turns off any drainage
+1  #landuse
+0.00000 0.00000 0.00000 0.00000 
+
+
+
+#
+# drainage scenario 5 of 6
+#
+plastic5 1
+Plastic pipe 6" 5m spacing
+Plastic pipe 6" 5m spacing
+Wepp distribution database
+example created by jrf
+1  #landuse
+0.60961 0.01905 0.15240 6.09607 
+
+
+
+#
+# drainage scenario 6 of 6
+#
+plastic7 1
+Plastic pipe 6" 7m spacing
+Plastic pipe 6" 7m spacing
+Wepp distribution database
+example created by jrf
+1  #landuse
+0.60961 0.01905 0.15240 7.00134 
+
+
+

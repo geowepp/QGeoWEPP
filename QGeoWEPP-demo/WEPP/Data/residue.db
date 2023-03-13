@@ -1,0 +1,235 @@
+99.1
+#
+#  Database modified: Nov 2, 2002
+#
+18
+#
+# Record 1 of 18
+#
+Ini_30014 1
+Initial hwy construction
+Construction
+(null)
+John Laflen
+2
+1 0.800000 DIOFF10
+
+
+
+#
+# Record 2 of 18
+#
+Roc_7329 1
+Rocks
+Rock addition
+John Laflen
+add 1000 t/ha
+1
+0 100.000000 Roc_5831
+
+
+
+#
+# Record 3 of 18
+#
+Roc_7643 1
+Rocks Crushed
+Rocks
+John Laflen
+add 1000 t/ha
+1
+0 100.000000 Roc_5831
+
+
+#
+# residue scenario 4 of 18
+#
+add50 1
+Add 0.5kg/m^2 of drybeans
+Drybean residue addition
+Wepp distribution database
+Add 0.5kg/m*m
+1
+0 0.500000 DRYBEAN
+
+
+
+#
+# residue scenario 5 of 18
+#
+add50dist 1
+Drybeans with dist
+example 2
+Wepp distribution database
+example created by jrf
+1
+1 0.500000 ANHYDISK DRYBEAN
+
+
+
+#
+# residue scenario 6 of 18
+#
+burn 1
+burning
+Another cropland example
+Wepp distribution database
+example created by jrf
+3
+0.250000 0.500000
+
+
+
+#
+# residue scenario 7 of 18
+#
+burnRange 1
+Burning rangeland
+Rangeland burning example
+Wepp distribution database
+example created by jrf
+6
+0.100000 0.270000 0.300000 0.400000 0.500000
+
+
+
+#
+# residue scenario 8 of 18
+#
+dec_14999 1
+decomp herb
+Rangeland herbicide example
+Wepp distribution database
+example created by jrf
+5
+1 0.250000 0.200000 0.300000 0.400000 1
+
+
+
+#
+# residue scenario 9 of 18
+#
+herbicide 1
+herbicide app
+Rangeland herbicide example
+Wepp distribution database
+example created by jrf
+5
+1 0.250000 0.200000 0.300000 0.400000 0
+
+
+
+#
+# residue scenario 10 of 18
+#
+rem50dist 1
+removal with disturbance
+Another cropland example
+Wepp distribution database
+example created by jrf
+2
+1 0.700000 ANHYDISK
+
+
+
+#
+# residue scenario 11 of 18
+#
+rem50 1
+removal without disturbance
+Removal of straw residue
+Assuming 60% baled as wheat straw
+example created by dcf
+2
+0 0.600000
+
+
+
+#
+# residue scenario 12 of 18
+#
+roc_2320 1
+rocks
+Drybean residue addition
+Wepp distribution database
+Add 0.5kg/m*m
+1
+0 0.143576 DRYBEAN
+
+
+
+#
+# residue scenario 13 of 18
+#
+shred 1
+shredding
+Another cropland example
+Wepp distribution database
+example created by jrf
+4
+0.800000
+
+#
+# Record 14 of 18
+#
+Fir_1506 1
+Fire removal of litter
+Removal of litter-85%
+JML 6/2002
+Created by John M. Laflen to simulate removal of litter et al.
+2
+0 0.990000
+
+
+
+#
+# Record 15 of 18
+#
+Fir_0502 1
+Fire-low severity removal of litter
+Removal of litter-60%
+JML 6/2002
+Created by John M. Laflen to simulate removal of litter et al.
+2
+0 0.600000
+
+
+
+#
+# Record 16 of 18
+#
+Hig_3934 1
+High Severity fire removal of litter
+Removal of litter-90%
+JML 6/2002
+Created by John M. Laflen to simulate removal of litter et al.
+2
+0 0.900000
+
+
+
+#
+# Record 17 of 18
+#
+Low_4812 1
+Low severity fire removal of litter
+Removal of litter-60%
+JML 6/2002
+Created by John M. Laflen to simulate removal of litter et al.
+2
+0 0.600000
+
+
+
+#
+# Record 18 of 18
+#
+Rem_9695 1
+Removal of litter for skid trail
+Removal of litter-85%
+JML 6/2002
+Created by John M. Laflen to simulate removal of litter et al.
+2
+0 0.990000
+
+

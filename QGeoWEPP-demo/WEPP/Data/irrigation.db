@@ -1,0 +1,155 @@
+99.2
+#
+# irrigation database modified: Mon Dec 06 10:21:24 AM 1999
+#
+9
+#
+# irrigation scenario 1 of 9
+#
+dep_22924 1
+dep - furrow - 1
+dep furrow
+Wepp distribution database
+example created by jim
+1 2 1  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.013000 -431602080.000000  # mindepth, maxdepth
+	0.00031500 3600 1 0.900000 0.500000 91 91
+
+
+
+#
+# irrigation scenario 2 of 9
+#
+dep_23476 1
+dep - stat - 1
+dep furrow
+Wepp distribution database
+example created by jim
+1 1 1  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.000000 0.100076  # mindepth, maxdepth
+	0.00031496 0.500000 0.900000 1.000000  91 121
+
+
+
+#
+# irrigation scenario 3 of 9
+#
+deplfur 1
+depletion - furrow
+depletion level irrigation, furrow
+Wepp distribution database
+example created by jrf
+1 2 2  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.013000 0.025000  # mindepth, maxdepth
+	0.00003150 14700 4 0.900000 0.500000 175 186
+	0.00003150 14400 4 0.900000 0.500000 190 205
+
+
+
+#
+# irrigation scenario 4 of 9
+#
+deplstat 1
+depletion - stationary
+depletion level irrigation, stationary
+Wepp distribution database
+example created by jrf
+1 1 2  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.013000 0.025000  # mindepth, maxdepth
+	0.00000200 1.300000 0.500000 1.000000  175 185
+	0.00000200 1.300000 0.500000 1.000000  190 205
+
+
+
+#
+# irrigation scenario 5 of 9
+#
+fixdate 1
+fixdate -  furrow
+Fixed date irrigation, furrow
+Wepp distribution database
+example created by jrf
+2 2 2  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.013000 0.025000  # mindepth, maxdepth
+	175 2
+		0.00031500 3600 7200 0
+		0.00031500 9960 10980 0
+	185 3
+		0.00015800 3600 7200 0
+		0.00015800 9960 10980 0
+		0.00007100 19980 24960 0
+
+
+
+#
+# irrigation scenario 6 of 9
+#
+fix_22552 1
+fixdate -  furrow -1
+Fixed date irrigation, furrow
+Wepp distribution database
+example created by jim
+2 2 1  # schedule, type, cycles
+0 0 0  # ctype, start, end
+-431602080.000000 -431602080.000000  # mindepth, maxdepth
+	175 2
+		0.00031500 3600 7200 0
+		0.00031500 9960 10980 0
+
+
+
+#
+# irrigation scenario 7 of 9
+#
+fixstat 1
+fixdate -  stationary
+Fixed date irrigation, stationary
+Wepp distribution database
+example created by jrf
+2 1 2  # schedule, type, cycles
+0 0 0  # ctype, start, end
+0.013000 0.025000  # mindepth, maxdepth
+	175 0.00000200 0.003200 1.000000
+	185 0.00000200 0.003200 1.000000
+
+
+
+#
+# irrigation scenario 8 of 9
+#
+tes_30813 1
+test1
+depletion level irrigation, furrow
+Wepp distribution database
+example created by jrf
+2 2 1  # schedule, type, cycles
+0 0 0  # ctype, start, end
+-431602080.000000 -431602080.000000  # mindepth, maxdepth
+	121 1
+		0.04000000 3600 14400 0
+
+
+
+#
+# irrigation scenario 9 of 9
+#
+tes_30989 1
+test2
+depletion level irrigation, furrow
+Wepp distribution database
+example created by jrf
+2 2 2  # schedule, type, cycles
+0 0 0  # ctype, start, end
+-431602080.000000 -431602080.000000  # mindepth, maxdepth
+	121 1
+		0.04000000 3600 14400 0
+	122 1
+		0.04000000 618481680 618485280 0
+
+
+

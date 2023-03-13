@@ -1,0 +1,1264 @@
+99.1
+#
+#  Database modified: Wed Oct 30, 2002
+#
+90
+#
+# Record 1 of 90
+#
+ANHYDROS 1
+Anhydrous applicator
+`Anhydrous applicator'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.2000 0
+4 # pcode - other 
+0.0250 0.7500 0.4500 0.2000 0.0130 0.1500 0.0000 
+
+
+#
+# Record 2 of 90
+#
+ANHYDISK 1
+Anhydrous applicator with closing disks
+`Anhydrous applicator with closing disks'
+(from WEPP distribution database)
+
+1  #landuse
+0.6000 0.3500 0
+4 # pcode - other 
+0.0250 0.7500 0.6000 0.3500 0.0130 0.2500 0.0000 
+
+
+#
+# Record 3 of 90
+#
+MANUAPPL 1
+Applicator, subsurface manure
+`Applicator, subsurface manure'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5000 0
+4 # pcode - other 
+0.0250 0.7500 0.7000 0.5000 0.0130 0.4000 0.0000 
+
+
+#
+# Record 4 of 90
+#
+BEDDER 1
+Bedders, lister and hippers
+`Bedders, lister and hippers'
+(from WEPP distribution database)
+
+1  #landuse
+0.9000 0.8000 0
+4 # pcode - other 
+0.1500 0.7500 0.9000 0.8000 0.0250 1.0000 0.1000 
+
+
+#
+# Record 5 of 90
+#
+CHIS0006 1
+Chisel Plow
+`Chisel Plow'
+Buries 70 percent of surface residues
+Maximum tillage depth of 20 cm  (about 8 inches)
+1  #landuse
+0.7000 0.7000 0
+4 # pcode - other 
+0.0500 0.3600 0.7000 0.7000 0.0200 1.0000 0.1500 
+
+
+#
+# Record 6 of 90
+#
+CHISCOST 1
+Chisel plow with coulters and straight chisel spike pt
+`Chisel plow with coulters and straight chisel spike pt'
+(from WEPP distribution database)
+
+1  #landuse
+0.6500 0.4000 0
+4 # pcode - other 
+0.0500 0.3000 0.6500 0.4000 0.0230 1.0000 0.1500 
+
+
+#
+# Record 7 of 90
+#
+CHISCOSW 1
+Chisel plow with coulters and sweeps
+`Chisel plow with coulters and sweeps'
+(from WEPP distribution database)
+
+1  #landuse
+0.5500 0.3000 0
+4 # pcode - other 
+0.0500 0.3000 0.5500 0.3000 0.0230 1.0000 0.1500 
+
+
+#
+# Record 8 of 90
+#
+CHISCOTW 1
+Chisel plow with coulters and twisted pts or shovels
+`Chisel plow with coulters and twisted pts or shovels'
+(from WEPP distribution database)
+
+1  #landuse
+0.7500 0.5500 0
+4 # pcode - other 
+0.0750 0.3000 0.7500 0.5500 0.0260 1.0000 0.1500 
+
+
+#
+# Record 9 of 90
+#
+CHISELSW 1
+Chisel plow with sweeps
+`Chisel plow with sweeps'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.2500 0
+4 # pcode - other 
+0.0500 0.3000 0.4500 0.2500 0.0230 1.0000 0.1500 
+
+
+#
+# Record 10 of 90
+#
+CHISSTSP 1
+Chisel plow, straight with spike pts
+`Chisel plow, straight with spike pts'
+(from WEPP distribution database)
+
+1  #landuse
+0.5000 0.3000 0
+4 # pcode - other 
+0.0500 0.3000 0.5000 0.3000 0.0230 1.0000 0.1500 
+
+
+#
+# Record 11 of 90
+#
+CHISTPSH 1
+Chisel plow, twisted points or shovels
+`Chisel plow, twisted points or shovels'
+(from WEPP distribution database)
+
+1  #landuse
+0.6500 0.4000 0
+4 # pcode - other 
+0.0750 0.3000 0.6500 0.4000 0.0260 1.0000 0.1500 
+
+
+#
+# Record 12 of 90
+#
+COMBSPRG 1
+Combination tools spring teeth and rolling basket
+`Combination tools with spring teeth and rolling basket'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.3500 0
+4 # pcode - other 
+0.0250 0.3000 0.2000 0.5000 0.0150 1.0000 0.0750 
+
+
+#
+# Record 13 of 90
+#
+COMBDISK 1
+Combination tools with disks, shanks and levelling att
+`Combination tools with disks, shanks and levelling att'
+(from WEPP distribution database)
+
+1  #landuse
+0.6000 0.4000 0
+4 # pcode - other 
+0.0250 0.3000 0.6000 0.4000 0.0150 1.0000 0.0750 
+
+
+#
+# Record 14 of 90
+#
+Cul_15823 0
+Cultipacker-roller
+smoothes groung, packs surface
+jml 3/28/01
+(null)
+1  #landuse
+0.0500 0.0200 0
+4 # pcode - other 
+0.0100 0.2000 0.0500 0.0200 0.0060 1.0000 0.0060 
+
+
+#
+# Record 15 of 90
+#
+CULTFW 1
+Cultivator, row, finger wheel
+`Cultivator, row, finger wheel'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.3000 0
+4 # pcode - other 
+0.0500 0.7500 0.3000 0.5000 0.0150 0.9500 0.0250 
+
+
+#
+# Record 16 of 90
+#
+CULTMUSW 1
+Cultivator, row, multiple sweeps per row
+`Cultivator, row, multiple sweeps per row'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.2000 0
+4 # pcode - other 
+0.0750 0.7500 0.4000 0.2000 0.0150 0.8500 0.0500 
+
+
+#
+# Record 17 of 90
+#
+CULTRT 1
+Cultivator, row, ridge till
+`Cultivator, row, ridge till'
+(from WEPP distribution database)
+
+1  #landuse
+0.7500 0.6000 0
+4 # pcode - other 
+0.1500 0.7500 0.7500 0.6000 0.0150 0.9000 0.0500 
+
+
+#
+# Record 18 of 90
+#
+CULTRD 1
+Cultivator, row, Rolling disk
+`Cultivator, row, Rolling disk'
+(from WEPP distribution database)
+
+1  #landuse
+0.5500 0.5000 0
+4 # pcode - other 
+0.1500 0.7500 0.5500 0.5000 0.0150 0.9000 0.0500 
+
+
+#
+# Record 19 of 90
+#
+CULTSW 1
+Cultivator, row, single sweep per row
+`Cultivator, row, single sweep per row'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.2000 0
+4 # pcode - other 
+0.0750 0.7500 0.4000 0.2000 0.0150 0.8500 0.0500 
+
+
+#
+# Record 20 of 90
+#
+DICHSP 1
+Disk chisel plow with straight chisel spike pts
+`Disk chisel plow with straight chisel spike pts'
+(from WEPP distribution database)
+
+1  #landuse
+0.6500 0.4500 0
+4 # pcode - other 
+0.0750 0.3000 0.6500 0.4500 0.0260 1.0000 0.1500 
+
+
+#
+# Record 21 of 90
+#
+DICHSW 1
+Disk chisel plow with sweeps
+`Disk chisel plow with sweeps'
+(from WEPP distribution database)
+
+1  #landuse
+0.6000 0.3500 0
+4 # pcode - other 
+0.0500 0.3000 0.6000 0.3500 0.0230 1.0000 0.1500 
+
+
+#
+# Record 22 of 90
+#
+DICHTW 1
+Disk chisel plow with twisted pts or shovels
+`Disk chisel plow with twisted pts or shovels'
+(from WEPP distribution database)
+
+1  #landuse
+0.7500 0.6000 0
+4 # pcode - other 
+0.0750 0.3000 0.7500 0.6000 0.0260 1.0000 0.1500 
+
+
+#
+# Record 23 of 90
+#
+DIPLOW 1
+Disk plow
+`Disk plow'
+(from WEPP distribution database)
+
+1  #landuse
+0.9000 0.8500 0
+4 # pcode - other 
+0.0500 0.2000 0.9000 0.8500 0.0380 1.0000 0.1000 
+
+
+#
+# Record 24 of 90
+#
+DIOFFFIN 1
+Disk, offset-finishing 7-9" spacing
+`Disk, offset-finishing 7-9" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5500 0
+4 # pcode - other 
+0.0500 0.2000 0.7000 0.5500 0.0380 1.0000 0.0750 
+
+
+#
+# Record 25 of 90
+#
+DIOFF10 1
+Disk, offset-heavy plowing>10" spacing
+`Disk, offset-heavy plowing>10" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.8500 0.6000 0
+4 # pcode - other 
+0.0500 0.2000 0.8500 0.6000 0.0380 1.0000 0.1000 
+
+
+#
+# Record 26 of 90
+#
+DIOFF9 1
+Disk, offset-Primary cutting>9" spacing
+`Disk, offset-Primary cutting>9" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.4500 0
+4 # pcode - other 
+0.0500 0.2000 0.7000 0.4500 0.0380 1.0000 0.1000 
+
+
+#
+# Record 27 of 90
+#
+DI1WA12+ 1
+Disk, one-way with 12-16 blades
+`Disk, one-way with 12-16 blades'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5500 0
+4 # pcode - other 
+0.0500 0.2000 0.7000 0.5500 0.0260 1.0000 0.1000 
+
+
+#
+# Record 28 of 90
+#
+DI1WA18+ 1
+Disk, one-way with 18-30" blades
+`Disk, one-way with 18-30" blades'
+(from WEPP distribution database)
+
+1  #landuse
+0.8000 0.7000 0
+4 # pcode - other 
+0.0500 0.2000 0.8000 0.7000 0.0260 1.0000 0.1000 
+
+
+#
+# Record 29 of 90
+#
+DISGANG 1
+Disk, single gang
+`Disk, single gang'
+(from WEPP distribution database)
+
+1  #landuse
+0.5000 0.4000 0
+4 # pcode - other 
+0.0500 0.2000 0.5000 0.4000 0.0260 1.0000 0.0500 
+
+
+#
+# Record 30 of 90
+#
+DITAFI9 1
+Disk, tandem-finishing 7-9" spacing
+`Disk, tandem-finishing 7-9" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5000 0
+4 # pcode - other 
+0.0500 0.2000 0.7000 0.5000 0.0260 1.0000 0.0500 
+
+
+#
+# Record 31 of 90
+#
+DITAHP10 1
+Disk, tandem-heavy plowing>10" spacing
+`Disk, tandem-heavy plowing>10" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.8500 0.6500 0
+4 # pcode - other 
+0.0500 0.2000 0.8500 0.6500 0.0260 1.0000 0.0750 
+
+
+#
+# Record 32 of 90
+#
+DITALIAH 1
+Disk, tandem-light after harvest, before other tillage
+`Disk, tandem-light after harvest, before other tillage'
+(from WEPP distribution database)
+
+1  #landuse
+0.5500 0.2500 0
+4 # pcode - other 
+0.0500 0.2000 0.5500 0.2500 0.0260 1.0000 0.0250 
+
+
+#
+# Record 33 of 90
+#
+DITAPR9 1
+Disk, tandem-primary cutting>9" spacing
+`Disk, tandem-primary cutting>9" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.4500 0
+4 # pcode - other 
+0.0500 0.2000 0.7000 0.4500 0.0260 1.0000 0.0750 
+
+
+#
+# Record 34 of 90
+#
+DRDDO 1
+Drill with double disk opener
+`Drill with double disk opener'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.1000 20
+2 # pcode - drill
+0.0250 0.2000 0.3000 0.1000 0.0120 0.8500 0.0250 
+
+
+#
+# Record 35 of 90
+#
+DRDF12 1
+Drill, deep furrow with 12" spacing
+`Drill, deep furrow with 12" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.3000 0
+4 # pcode - other 
+0.0500 0.2000 0.3500 0.3000 0.0120 0.9000 0.0750 
+
+
+#
+# Record 36 of 90
+#
+DRHOE 1
+Drill, Hoe opener
+`Drill, Hoe opener'
+(from WEPP distribution database)
+
+1  #landuse
+0.5000 0.3500 0
+4 # pcode - other 
+0.0500 0.2000 0.5000 0.3500 0.0120 0.8000 0.0250 
+
+
+#
+# Record 37 of 90
+#
+CRNTFRRI 1
+Drill, no-till 
+`Drill, no-till in flat residues-ripple or bubble coult'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.3500 0
+4 # pcode - other 
+0.0250 0.2000 0.3000 0.5500 0.0120 0.5000 0.0000 
+
+
+#
+# Record 38 of 90
+#
+DRNTFRFC 1
+Drill, no-till in flat residues-fluted coulters
+`Drill, no-till in flat residues-fluted coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.5000 0.4000 0
+4 # pcode - other 
+0.0250 0.2000 0.5000 0.4000 0.0120 0.6000 0.0000 
+
+
+#
+# Record 39 of 90
+#
+DRNTFLSC 1
+Drill, no-till in flat residues-smooth coulters
+`Drill, no-till in flat residues-smooth coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.2500 0
+4 # pcode - other 
+0.0250 0.2000 0.4000 0.2500 0.0120 0.4000 0.0000 
+
+
+#
+# Record 40 of 90
+#
+DRNTSRFC 1
+Drill, no-till in standing stubble-fluted coulters
+`Drill, no-till in standing stubble-fluted coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.2000 0
+4 # pcode - other 
+0.0250 0.2000 0.3000 0.2000 0.0120 0.6000 0.0000 
+
+
+#
+# Record 41 of 90
+#
+DRNTSRRI 1
+Drill, no-till in standing stubble-ripple or bubble co
+`Drill, no-till in standing stubble-ripple or bubble co'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.2000 20
+2 # pcode - drill
+0.0250 0.2000 0.3000 0.2000 0.0120 0.5000 0.0000 
+
+
+#
+# Record 42 of 90
+#
+DRNTSRSC 1
+Drill, no-till in standing stubble-smooth coulters
+`Drill, no-till in standing stubble-smooth coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.2500 0.1000 20
+2 # pcode - drill
+0.0250 0.2000 0.2500 0.1000 0.0120 0.4000 0.0000 
+
+
+#
+# Record 43 of 90
+#
+DRSDFP7+ 1
+Drill, semi deep furrow or press 7-12" spacing
+`Drill, semi deep furrow or press 7-12" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.2000 0
+4 # pcode - other 
+0.0500 0.2000 0.3500 0.2000 0.0120 0.9000 0.0500 
+
+
+#
+# Record 44 of 90
+#
+DRSDO 1
+Drill, single disk opener (conventional)
+`Drill, single disk opener (conventional)'
+(from WEPP distribution database)
+
+1  #landuse
+0.2000 0.1000 0
+4 # pcode - other 
+0.0500 0.2000 0.2000 0.1000 0.0120 0.8500 0.0250 
+
+
+#
+# Record 45 of 90
+#
+FIEL0001 1
+Field Cultivation
+`Field Cultivation'
+From converted V92.2 file `ANSI1.MAN'
+NOTE: MFO values are the min and max of original values.
+1  #landuse
+0.2500 0.2500 0
+4 # pcode - other 
+0.0250 0.1500 0.2500 0.2500 0.0150 1.0000 0.1000 
+
+
+#
+# Record 46 of 90
+#
+FCPTDP 1
+Field cultivator, primary tillage-Duckfoot pts
+`Field cultivator, primary tillage-Duckfoot pts'
+(from WEPP distribution database)
+
+1  #landuse
+0.6000 0.5500 0
+4 # pcode - other 
+0.0250 0.3000 0.6000 0.5500 0.0150 1.0000 0.0750 
+
+
+#
+# Record 47 of 90
+#
+FCPTS12+ 1
+Field cultivator, primary tillage-sweeps 12-20"
+`Field cultivator, primary tillage-sweeps 12-20"'
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.3000 0
+4 # pcode - other 
+0.0250 0.3000 0.3500 0.3000 0.0150 1.0000 0.0750 
+
+
+#
+# Record 48 of 90
+#
+FCPTSW6+ 1
+Field cultivator, primary tillage-sweeps or shovels 6-
+`Field cultivator, primary tillage-sweeps or shovels 6-'
+(from WEPP distribution database)
+
+1  #landuse
+0.5000 0.4000 0
+4 # pcode - other 
+0.0250 0.3000 0.5000 0.4000 0.0150 1.0000 0.0750 
+
+
+#
+# Record 49 of 90
+#
+FCSTACDP 1
+Field cultivator, secondary tillage, after duckfoot points
+`Field cultivator, secondary tillage, after duckfoot points
+(from WEPP distribution database)
+Maximum depth of 10 cm (4 inches)
+1  #landuse
+0.6000 0.3500 0
+4 # pcode - other 
+0.0250 0.3000 0.6000 0.3500 0.0150 1.0000 0.0500 
+
+
+#
+# Record 50 of 90
+#
+FCSTACDS 1
+Field cultivator, secondary tillage, sweeps 12-20"
+`Field cultivator, secondary tillage, sweeps 12-20"
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.1500 0
+4 # pcode - other 
+0.0250 0.3000 0.3500 0.1500 0.0150 1.0000 0.0500 
+
+
+#
+# Record 51 of 90
+#
+FCSTACSH 1
+Field cultivator, secondary tillage, swp or shov 6-12"
+`Field cultivator, secondary tillage, swp or shov 6-12"
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.2500 0
+4 # pcode - other 
+0.0250 0.3000 0.4500 0.2500 0.0150 1.0000 0.0500 
+
+
+#
+# Record 52 of 90
+#
+ROAD 1
+Forest Road (Blade)
+Blade Road Operation
+W. Elliot & H. Rhee 1/99  USDA Forest Service
+Windows update - Jim Frankenberger
+1  #landuse
+1.0000 1.0000 0
+4 # pcode - other 
+0.2000 4.0000 1.0000 1.0000 0.0200 1.0000 0.1000 
+
+
+#
+# Record 53 of 90
+#
+RROAD 1
+Forest Road (Rutted)
+Rutted Road Operation
+W. Elliot & H. Rhee 1/99  USDA Forest Service
+Windows update - Jim Frankenberger
+1  #landuse
+1.0000 1.0000 0
+4 # pcode - other 
+0.1000 2.0000 1.0000 1.0000 0.0200 1.0000 0.1000 
+
+
+#
+# Record 54 of 90
+#
+FURROWD 1
+Furrow diker'
+`Furrow diker'
+(from WEPP distribution database)
+
+1  #landuse
+0.2000 0.1000 0
+4 # pcode - other 
+0.0250 0.7500 0.2000 0.1000 0.0150 0.7000 0.0500 
+
+
+#
+# Record 55 of 90
+#
+HAFTT 1
+Harrow-flex-tine tooth
+`Harrow-flex-tine tooth'
+(from WEPP distribution database)
+
+1  #landuse
+0.2500 0.2000 0
+4 # pcode - other 
+0.0250 0.1000 0.2500 0.2000 0.0180 1.0000 0.0250 
+
+
+#
+# Record 56 of 90
+#
+HAPR 1
+Harrow-packer roller
+`Harrow-packer roller'
+(from WEPP distribution database)
+
+1  #landuse
+0.1000 0.0500 0
+4 # pcode - other 
+0.0250 0.0800 0.1000 0.0500 0.0100 1.0000 0.0250 
+
+
+#
+# Record 57 of 90
+#
+HARHCP 1
+Harrow-roller harrow (cultipacker)
+`Harrow-roller harrow (cultipacker)'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.3000 0
+4 # pcode - other 
+0.0250 0.0800 0.4000 0.3000 0.0100 1.0000 0.0250 
+
+
+#
+# Record 58 of 90
+#
+HASP 1
+Harrow-spike tooth
+`Harrow-spike tooth'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.2000 0
+4 # pcode - other 
+0.0250 0.0500 0.3000 0.2000 0.0150 1.0000 0.0250 
+
+
+#
+# Record 59 of 90
+#
+HASPTCT 1
+Harrow-springtooth (coil tine)
+`Harrow-springtooth (coil tine)'
+(from WEPP distribution database)
+
+1  #landuse
+0.2500 0.1500 0
+4 # pcode - other 
+0.0250 0.0500 0.2500 0.1500 0.0150 1.0000 0.0250 
+
+
+#
+# Record 60 of 90
+#
+MULCHT 1
+Mulch treader
+`Mulch treader'
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.2500 0
+4 # pcode - other 
+0.0250 0.0500 0.3500 0.2500 0.0150 1.0000 0.0250 
+
+
+#
+# Record 61 of 90
+#
+NH3_0005 1
+NH3 Applicator
+`NH3 Applicator'
+From converted V92.2 file `ANSI1.MAN'
+Maximum tillage depth of 8 inches.  Average depth set to 0 here.
+1  #landuse
+0.1500 0.1500 0
+4 # pcode - other 
+0.0250 0.3000 0.1500 0.1500 0.0130 0.1500 0.0000 
+
+
+#
+# Record 62 of 90
+#
+Not_22476 1
+Nothing tilled or buried
+`Harrow-spike tooth'
+(from WEPP distribution database)
+(null)
+1  #landuse
+0.0000 0.0000 0
+4 # pcode - other 
+0.0000 0.0000 0.0000 0.0000 0.0150 1.0000 0.0010 
+
+
+#
+# Record 63 of 90
+#
+PARAPLOW 1
+Paratill/paraplow
+`Paratill/paraplow'
+(from WEPP distribution database)
+
+1  #landuse
+0.2000 0.1500 0
+4 # pcode - other 
+0.0250 0.3600 0.2000 0.1500 0.0100 0.3000 0.2000 
+
+
+#
+# Record 64 of 90
+#
+PLDDO 1
+Planter, double disk openers
+`Planter, double disk openers'
+(from WEPP distribution database)
+Tillage depth of 2 inches
+1  #landuse
+0.2000 0.1000 6
+1 # pcode - planter
+0.0250 0.7500 0.2000 0.1000 0.0120 0.1500 0.0500 
+
+
+#
+# Record 65 of 90
+#
+PLNTFC 1
+Planter, no-till with fluted coulter
+`Planter, no-till with fluted coulter'
+(from WEPP distribution database)
+
+1  #landuse
+0.2500 0.1500 0
+4 # pcode - other 
+0.0250 0.7500 0.2500 0.1500 0.0120 0.1500 0.0000 
+
+
+#
+# Record 66 of 90
+#
+PLNTRC 1
+Planter, no-till with ripple coulter
+`Planter, no-till with ripple coulter'
+(from WEPP distribution database)
+
+1  #landuse
+0.1500 0.1000 0
+4 # pcode - other 
+0.0250 0.7500 0.1500 0.1000 0.0120 0.1500 0.0000 
+
+
+#
+# Record 67 of 90
+#
+PLNTSC 1
+Planter, no-till with smooth coulters
+`Planter, no-till with smooth coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.1000 0.0500 0
+4 # pcode - other 
+0.0250 0.7500 0.1000 0.0500 0.0120 0.1500 0.0000 
+
+
+#
+# Record 68 of 90
+#
+PLRT 1
+Planter, ridge-till
+`Planter, ridge-till'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5000 0
+4 # pcode - other 
+0.1000 0.7500 0.7000 0.5000 0.0130 0.4000 0.0500 
+
+
+#
+# Record 69 of 90
+#
+PLRO 1
+Planter, runner openers
+`Planter, runner openers'
+(from WEPP distribution database)
+
+1  #landuse
+0.1500 0.1000 0
+4 # pcode - other 
+0.0250 0.7500 0.1500 0.1000 0.0130 0.2000 0.0500 
+
+
+#
+# Record 70 of 90
+#
+PLSDDO 1
+Planter, staggered double disk openers
+`Planter, staggered double disk openers'
+(from WEPP distribution database)
+
+1  #landuse
+0.1000 0.0500 0
+4 # pcode - other 
+0.0250 0.7500 0.1000 0.0500 0.0130 0.1500 0.0500 
+
+
+#
+# Record 71 of 90
+#
+PLST2C 1
+Planter, strip-till with 2 or 3 fluted coulters
+`Planter, strip-till with 2 or 3 fluted coulters'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.3000 0
+4 # pcode - other 
+0.0250 0.7500 0.4000 0.3000 0.0130 0.3000 0.0500 
+
+
+#
+# Record 72 of 90
+#
+PLSTRC 1
+Planter, strip-till with row cleaning devices (8-14" 
+`Planter, strip-till with row cleaning devices (8-14" w'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.3000 0
+4 # pcode - other 
+0.0250 0.7500 0.4500 0.3000 0.0130 0.4000 0.0500 
+
+
+#
+# Record 73 of 90
+#
+MOPLUF 1
+Plow, Moldboard with uphill furrow(Pacific NW only)
+`Plow, Moldboard with uphill furrow(Pacific NW only)'
+(from WEPP distribution database)
+
+1  #landuse
+0.8000 0.6000 0
+4 # pcode - other 
+0.0500 0.4000 0.8000 0.6000 0.0430 1.0000 0.1500 
+
+
+#
+# Record 74 of 90
+#
+MOPL 1
+Plow, Moldboard, 8"
+`Plow, Moldboard', 8"
+(from WEPP distribution database)
+
+1  #landuse
+0.9800 0.9500 0
+4 # pcode - other 
+0.0500 0.4000 0.9800 0.9500 0.0430 1.0000 0.1500 
+
+
+#
+# Record 75 of 90
+#
+RORRP 1
+Rodweeder, plain rotary rod
+`Rodweeder, plain rotary rod'
+(from WEPP distribution database)
+
+1  #landuse
+0.4000 0.1000 0
+4 # pcode - other 
+0.0250 0.1300 0.4000 0.1000 0.0100 1.0000 0.0500 
+
+
+#
+# Record 76 of 90
+#
+RORRSC 1
+Rodweeder, rotary rod with semi-chisels or shovels
+`Rodweeder, rotary rod with semi-chisels or shovels'
+(from WEPP distribution database)
+
+1  #landuse
+0.3500 0.2500 0
+4 # pcode - other 
+0.0250 0.1300 0.3500 0.2500 0.0100 1.0000 0.0500 
+
+
+#
+# Record 77 of 90
+#
+ROTHOE 1
+Rotary hoe
+`Rotary hoe'
+(from WEPP distribution database)
+
+1  #landuse
+0.1500 0.1500 0
+4 # pcode - other 
+0.0000 0.0000 0.1500 0.1500 0.0120 1.0000 0.0250 
+
+
+#
+# Record 78 of 90
+#
+ROTILST 1
+Rotary tiller, strip tillage-12" tilled on 40" rows
+`Rotary tiller, strip tillage-12" tilled on 40" rows'
+(from WEPP distribution database)
+
+1  #landuse
+0.4500 0.3500 0
+4 # pcode - other 
+0.0000 0.0000 0.4500 0.3500 0.0150 0.3000 0.0750 
+
+
+#
+# Record 79 of 90
+#
+ROTILPO 1
+Rotary tiller-Primary operation 6"deep
+`Rotary tiller-Primary operation 6"deep'
+(from WEPP distribution database)
+
+1  #landuse
+0.9000 0.7500 0
+4 # pcode - other 
+0.0000 0.0000 0.9000 0.7500 0.0150 1.0000 0.1500 
+
+
+#
+# Record 80 of 90
+#
+ROTILSO 1
+Rotary tiller-secondary operation 3" deep
+`Rotary tiller-secondary operation 3" deep'
+(from WEPP distribution database)
+
+1  #landuse
+0.7000 0.5000 0
+4 # pcode - other 
+0.0000 0.0000 0.7000 0.5000 0.0150 1.0000 0.0750 
+
+
+#
+# Record 81 of 90
+#
+ROW_0004 1
+Row Cultivator Sweeps
+`Row Cultivator Sweeps'
+From converted V92.2 file `ANSI1.MAN'
+NOTE: MFO values are the min and max of original values.
+1  #landuse
+0.2500 0.2500 6
+4 # pcode - other 
+0.0750 0.7620 0.2500 0.2500 0.0150 1.0000 0.0000 
+
+
+#
+# Record 82 of 90
+#
+ROW_0003 1
+Row Planter
+`Row Planter'
+From converted V92.2 file `ANSI1.MAN'
+NOTE: MFO values are the min and max of original values.
+1  #landuse
+0.0800 0.0800 0
+4 # pcode - other 
+0.0100 1.0000 0.0800 0.0800 0.0100 1.0000 0.0000 
+
+
+#
+# Record 83 of 90
+#
+SUBCC 1
+Subsoil-chisel, combination chisel
+`Subsoil-chisel, combination chisel'
+(from WEPP distribution database)
+
+1  #landuse
+0.5500 0.4000 0
+4 # pcode - other 
+0.0750 0.3000 0.5500 0.4000 0.0150 1.0000 0.4000 
+
+
+#
+# Record 84 of 90
+#
+SUBCD 1
+Subsoiler, combination disk
+`Subsoiler, combination disk'
+(from WEPP distribution database)
+
+1  #landuse
+0.8500 0.6000 0
+4 # pcode - other 
+0.0750 0.3000 0.8500 0.6000 0.0150 1.0000 0.4000 
+
+
+#
+# Record 85 of 90
+#
+SUBVRIP 1
+Subsoiler, V ripper 20" spacing
+`Subsoiler, V ripper 20" spacing'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.2000 0
+4 # pcode - other 
+0.0750 0.5000 0.3000 0.2000 0.0150 0.2000 0.4000 
+
+
+#
+# Record 86 of 90
+#
+TAND0002 1
+Tandem Disk
+`Tandem Disk'
+From converted V92.2 file `ANSI1.MAN'
+NOTE: MFO values are the min and max of original values.
+1  #landuse
+0.5000 0.5000 0
+4 # pcode - other 
+0.0500 0.2300 0.5000 0.5000 0.0260 1.0000 0.1000 
+
+
+#
+# Record 87 of 90
+#
+UNSMWBL 1
+Undercutter, stubble-mulch sweep (20-30" wide) 
+`Undercutter, stubble-mulch sweep (20-30" wide) or blad'
+(from WEPP distribution database)
+
+1  #landuse
+0.3000 0.1500 0
+4 # pcode - other 
+0.0750 1.0000 0.3000 0.1500 0.0150 1.0000 0.0750 
+
+
+#
+# Record 88 of 90
+#
+UNSMWBP 1
+Undercutter, stubble-mulch sweep or blade plows >30" 
+`Undercutter, stubble-mulch sweep or blade plows >30" w'
+(from WEPP distribution database)
+
+1  #landuse
+0.2500 0.1000 0
+4 # pcode - other 
+0.0750 1.5000 0.2500 0.1000 0.0150 1.0000 0.0750 
+
+#
+# Record 89 of 90
+#
+Bla_7370 1
+Blade road operation
+Simulate blading of road
+Elliot and Rhee, 1/99; transformed by Laflen, 6/2002
+Use with FS road programs
+1  #landuse
+1.0000 1.0000 0
+4 # pcode - other 
+0   0.000 1.0000 1.0000 0.0200 1.0000 0.1000 
+
+
+#
+# Record 90 of 90
+#
+Rut_5136 1
+Rutted road operation
+Simulate making ruts in road
+Elliot and Rhee, 1/99; transformed by Laflen, 6/2002
+(null)
+1  #landuse
+1.0000 1.000 0
+4 # pcode - other
+.10000 2.000 1.0 1.000 0.02 1.0000 0.1 
+
+

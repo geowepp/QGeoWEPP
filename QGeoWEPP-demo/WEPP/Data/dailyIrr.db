@@ -1,0 +1,30 @@
+99.2
+#
+# daily irrigation database modified: Thu Oct 28 09:15:37 AM 1999
+#
+2
+#
+# daily irrigation scenario 1 of 2
+#
+fixdate 1
+fixdate -  furrow
+Fixed date irrigation, furrow
+Wepp distribution database
+example created by jrf
+2   #  type
+	2
+		0.00031500 3600 7200
+		0.00031500 9960 10980
+
+
+
+#
+# daily irrigation scenario 2 of 2
+#
+fixstat 1
+fixdate -  stationary
+Fixed date irrigation, stationary
+Wepp distribution database
+example created by jrf
+1   #  type
+	0.00000200 0.003200 1.000000

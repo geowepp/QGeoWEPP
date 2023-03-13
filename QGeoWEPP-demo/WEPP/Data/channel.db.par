@@ -1,0 +1,21 @@
+99.1
+17
+"Channel Shape"		""		""
+"Control Section at Outlet" 			""		""
+"Friction Slope Calculation Method"		""		""
+"Inverse Slope of the channel banks"		"m/m"	"1,1000"
+"Manning roughness coefficient for bare soil in channel" ""	""
+"Total Manning roughness coefficient allowing for veg"  ""  ""
+"Channel erodibility factor" "s/m"  ""
+"Channel critical shear stress" "N/m2"  ""
+"Depth to nonerodibile layer in mid-channel" "M"  ""
+"Depth to nonerodibile layer on sides"	"M"   ""
+"Control structure slope" "%"				"0,1000"
+"Control structure average inverse side slope" "m/m"	"1,1000"
+"Control structure Manning roughness coefficient" ""   ""
+"Rating curve coefficient" ""   ""
+"Rating curve exponent"  ""     ""
+"Minimum depth required for discharge"   "M"   ""
+"Management" ""   ""
+
+

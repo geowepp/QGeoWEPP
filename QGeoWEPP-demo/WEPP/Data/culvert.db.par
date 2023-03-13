@@ -1,0 +1,12 @@
+99.1
+10
+"Number of identical culverts(ncv)"	""
+"Cross-sectional area of culvert(arcv)"	"m2"
+"Cross-sectional height of culvert(hitcv)"	"m"
+"Stage of culvert inlet(hcv)"	"m"
+"Flow length of culvert(lcv)"	"m"
+"Slop of culvert(scv)"	"m/m"
+"Height of culvert outlet abot exit channel bottom(hcvot)"	"m"
+"Entrance head loss coefficient for culverts(ke)"	""
+"Bend head loss coefficient for culverts(kb)"	""
+"Friction head loss coefficient for culverts(kc)"	""

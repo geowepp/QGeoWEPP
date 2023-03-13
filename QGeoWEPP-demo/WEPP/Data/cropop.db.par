@@ -1,0 +1,19 @@
+98.12
+#
+#	Created 11 Dec 1997
+#       Changes made for Windows interface.  File needs checked.  dcf
+#	NOTE: only Operation and related scenarios in this file
+#
+12
+"Percent residue buried on interrill areas for fragile crops"     "%"	""
+"Percent residue buried on interrill areas for non-fragile crops"  "%"	""
+"Number of rows of tillage implement"		    ""			""
+"Implement Code"							""			""
+"Cultivator Position"						""			""
+"Ridge height value after tillage" 				"CM"			"0"
+"Ridge interval"							"CM"			"0"
+"Percent residue buried on rill areas for fragile crops"		"%"	     ""
+"Percent residue buried on rill areas for non-fragile crops"		"%"  ""
+"Random roughness value after tillage"			"CM"	"0"
+"Surface area disturbed (0-100%)"		"%"			"0,100"
+"Mean tillage depth"						"CM"  "0"

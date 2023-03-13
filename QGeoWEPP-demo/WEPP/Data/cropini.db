@@ -1,0 +1,1984 @@
+99.1
+#
+#  Database modified: Sat Mar 03 07:03:59 PM 2001
+#
+129
+#-------------------------------------------------------------------------
+Blu_20876 1
+Bluestem Prarie
+Generic Bluestem Prarie
+jml 3-29-01
+3
+Blu_19322
+1  #landuse
+1.10000 0.39000 20000 20000 0.00000 0.56000
+2 # mang perennial
+500.12601 0.01700 0.61000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Blu_20003 1
+Bluegrass
+Generic Bluegrass, less than 0.6 m tall
+jml 3-30-01
+3
+Blu_19729
+1  #landuse
+1.10000 0.39000 20000 20000 0.00000 0.56000
+2 # mang perennial
+500.12601 0.01700 0.61000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Bro_32534 1
+Bromegrass-tall
+Generic Bromegrass, less than 1 m tall
+jml 3-30-01
+3
+Bro_31714
+1  #landuse
+1.10000 0.39000 20000 20000 0.00000 0.56000
+2 # mang perennial
+500.12601 0.01700 0.61000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Fes_13371 1
+Fescue
+Generic fescue, less than 0.6 m tall
+jml 3-30-01
+3
+Fes_13238
+1  #landuse
+1.10000 0.39000 20000 20000 0.00000 0.56000
+2 # mang perennial
+500.12601 0.01700 0.61000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Whe_32482 1
+Wheatgrass-Grama-Needlegrass
+Generic initial conditions for Wheatgras-Grama-Needlegrass
+jml 3-29-01
+Estimated from NRST data & Wingate data
+Whe_32198
+1  #landuse
+1.10000 0.55000 20000 20000 0.00000 0.76000
+2 # mang perennial
+29997.40039 0.01000 0.46000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Whe_28929 1
+Wheatgrass-Needlegrass
+Generic initial conditions for Wheatgrass-Needlegrass
+jml 3-20-01
+Estimated from NRST data & Wingate data
+Whe_28691
+1  #landuse
+1.10000 0.20000 20000 20000 0.00000 0.10000
+2 # mang perennial
+29997.40039 0.01000 0.40000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Con_9060 1
+Continuous alfalfa initial conditions
+Continuous alfalfa - initial conditions
+(null)
+(null)
+alfalfa
+1  #landuse
+1.10000 0.00000 1600 1600 0.00000 0.95000
+2 # mang perennial
+5000.00000 0.02000 0.95000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+#-------------------------------------------------------------------------
+CRP_15139 1
+CRP burned
+1
+2
+3
+Gra_16094
+1  #landuse
+1.10000 0.00000 200 92 0.00000 0.15000
+3 # mang fallow
+500.12601 0.02000 0.15000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+CRP_16234 1
+CRP grass
+1
+2
+3
+Gra_16094
+1  #landuse
+1.10000 0.85000 200 92 0.00000 0.80000
+2 # mang perennial
+500.12601 0.02000 0.80000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Gra_10461 1
+Grape vine
+(null)
+(null)
+(null)
+Gra_9508
+1  #landuse
+1.10000 0.50000 60 92 0.00000 0.10000
+2 # mang perennial
+99.99980 0.02000 0.10000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.50003 0.19997
+
+
+#-------------------------------------------------------------------------
+gra_16549 1
+grass strip - bromegrass
+Initial conditions for a perennial grass strip already in existence
+Can use this initial condition to run permanent grass strips
+and have no disturbance, planting or other operations
+Bro_16245
+1  #landuse
+1.10000 0.50000 200 92 0.00000 1.00000
+2 # mang perennial
+500.12601 0.02000 1.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+#-------------------------------------------------------------------------
+Red_3313 1
+Redwood tree initial conditions
+(null)
+Low roughness
+Starting redwood tree growth
+Not_4092
+1  #landuse
+1.10000 0.00100 200 2000 0.00000 1.00000
+2 # mang perennial
+500.12601 0.02000 1.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Sho_20272 1
+Shortgrass Prarie
+1
+2
+3
+Sho_20939
+1  #landuse
+1.30000 0.75000 20000 20000 0.00000 0.15000
+2 # mang perennial
+9999.98047 0.01000 0.15000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_18294 1
+Wheatgras-Grama-Needlegrass, fair
+>From Akron CO, Fair ecological status-44
+John Laflen
+Estimated from NRST data
+Whe_16877
+1  #landuse
+1.10000 0.37000 20000 20000 0.00000 0.63000
+2 # mang perennial
+29997.40039 0.01000 0.60000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.89997 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_1350 1
+Wheatgras-Grama-Needlegrass, fair-ecological status-44
+>From Akron CO, Fair ecological status-44
+John Laflen
+Estimated from NRST data
+Whe_1177
+1  #landuse
+1.10000 0.37000 20000 20000 0.00000 0.63000
+2 # mang perennial
+29997.40039 0.01000 0.60000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.89997 0.00000
+
+
+
+#-------------------------------------------------------------------------
+Whe_5121 1
+Wheatgras-Grama-Needlegrass, good
+>From Akron CO, Good ecological status-76
+John Laflen
+Estimated from NRST data
+Whe_2940
+1  #landuse
+1.10000 0.55000 20000 20000 0.00000 0.76000
+2 # mang perennial
+30000.00000 0.01000 0.46000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_32169 1
+Wheatgras-Needlegrass, fair
+>From Kildeer ND, fair ecological status-43
+John Laflen
+Estimated from NRST data
+Whe_25388
+1  #landuse
+1.10000 0.69000 20000 20000 0.00000 0.62000
+2 # mang perennial
+29997.40039 0.01100 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_0468 1
+Wheatgras-Needlegrass, fair-43, Killdeer ND
+>From Kildeer ND, fair ecological status-43
+John Laflen
+Estimated from NRST data
+Whe_0262
+1  #landuse
+1.10000 0.69000 20000 20000 0.00000 0.62000
+2 # mang perennial
+29997.40039 0.01100 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_26600 1
+Wheatgras-Needlegrass, fair-50
+For Newcastle WY, fair ecological status-50
+John Laflen
+Estimated from NRST data
+Whe_25388
+1  #landuse
+1.10000 0.34000 20000 20000 0.00000 0.31000
+2 # mang perennial
+30000.00000 0.01100 0.58000 0.02000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_30650 1
+Wheatgras-Needlegrass, good
+>From Kildeer ND, Good ecological status-56
+John Laflen
+Estimated from NRST data
+Whe_31614
+1  #landuse
+1.10000 0.76000 20000 20000 0.00000 0.81000
+2 # mang perennial
+29997.40039 0.01000 0.24000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_3499 1
+Wheatgras-Needlegrass, good, ecological status = 52
+From Kildeer ND, Good ecological status-52
+John Laflen
+Estimated from NRST data
+Whe_4384
+1  #landuse
+1.10000 0.70000 20000 20000 0.00000 0.70000
+2 # mang perennial
+29997.40039 0.01000 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_3107 1
+Wheatgras-Needlegrass, good, Ecological status=60
+From Kildeer ND, Good ecological status-60
+John Laflen
+Estimated from NRST data
+Whe_4250
+1  #landuse
+1.10000 0.82000 20000 20000 0.00000 0.92000
+2 # mang perennial
+29997.40039 0.01000 0.18000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_21153 1
+Wheatgras-Needlegrass, poor
+For Newcastle WY, poor ecological status-21
+John Laflen
+Estimated from NRST data
+Whe_32737
+1  #landuse
+1.10000 0.69000 20000 20000 0.00000 0.62000
+2 # mang perennial
+29997.40039 0.01100 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_21349 1
+Wheatgras-Needlegrass, poor
+For Newcastle WY, poor ecological status-21
+John Laflen
+Estimated from NRST data
+Whe_21852
+1  #landuse
+1.10000 0.69000 20000 20000 0.00000 0.62000
+2 # mang perennial
+29997.40039 0.01100 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_24383 1
+Wheatgras-Needlegrass, poor-21
+For Newcastle WY, poor ecological status-21
+John Laflen
+Estimated from NRST data
+Whe_23873
+1  #landuse
+1.10000 0.69000 20000 20000 0.00000 0.62000
+2 # mang perennial
+29997.40039 0.01100 0.30000 0.01000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Whe_23596 1
+Wheatgras-Needlegrass, poor-22
+For Newcastle WY, poor ecological status-22
+John Laflen
+Estimated from NRST data, nrst g2
+Whe_24144
+1  #landuse
+1.10000 0.56000 20000 20000 0.00000 0.77000
+2 # mang perennial
+29997.40039 0.01100 0.35000 0.02000 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Whe_31231 1
+Wheatgrass-Grama-Needlegrass, good-67
+>From Amarillo TX, good ecological status-67
+John Laflen
+Estimated from NRST data
+Whe_2940
+1  #landuse
+1.10000 0.16000 20000 20000 0.00000 0.81000
+2 # mang perennial
+30000.00000 0.01000 0.82000 0.00800 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+Aft_32194 1
+After corn in a soybeans-wheat-corn rotation
+Corn last crop in rotation, after soybeans and wheat
+90 percent cover, approximately 210 days since last tillage
+500 mm of rain since last tillage in summer prior
+Corn
+1  #landuse
+1.10000 0.00000 210 60 0.00000 0.90000
+1 # mang annual
+500.00000 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+
+#-------------------------------------------------------------------------
+Con_6301 1
+Continuous alfalfa - no-till drill in 1, cutting harvests
+Continuous alfalfa - initial conditions
+No-till year 1, cutting harvest in years 1-5
+High initial residue levels.
+alfalfa2
+1  #landuse
+1.10000 0.00000 1600 1600 0.00000 0.95000
+2 # mang perennial
+5000.00000 0.02000 0.95000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+
+#-------------------------------------------------------------------------
+Con_29346 1
+Continuous alfalfa - no-till drill in 1, grazing mgmt
+Continuous alfalfa - initial conditions
+No-till year 1, grazing in years 2-5
+High initial residue levels.
+alfalfa2
+1  #landuse
+1.10000 0.00000 1600 1600 0.00000 0.95000
+2 # mang perennial
+5000.00000 0.02000 0.95000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+
+#-------------------------------------------------------------------------
+Con_17029 1
+Continuous alfalfa - tilled year 1, cutting in years 1-5
+Continuous alfalfa - initial conditions
+No-till year 1, cutting harvest in years 1-5
+55 percent residue levels.
+alfalfa2
+1  #landuse
+1.10000 0.50000 1600 1600 0.00000 0.55000
+2 # mang perennial
+5000.00000 0.02000 0.55000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+
+#-------------------------------------------------------------------------
+Con_32492 1
+Continuous alfalfa - tilled year 1, no mgmt years 2-5
+Continuous alfalfa - initial conditions
+No-till year 1, cutting harvest in years 1-5
+High initial residue levels.
+alfalfa2
+1  #landuse
+1.10000 0.00000 1600 1600 0.00000 0.95000
+2 # mang perennial
+5000.00000 0.02000 0.95000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+
+#-------------------------------------------------------------------------
+Default 1
+Corn after corn
+Default corn initial conditions set - continuous corn - spring/summer tillage only
+90 percent cover, approximately 200 days since last tillage
+500 mm of rain since last tillage in summer prior
+Corn
+1  #landuse
+1.10000 0.00000 200 92 0.00000 0.90000
+1 # mang annual
+500.12601 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.50003 0.19997
+
+#-------------------------------------------------------------------------
+cos_6407 1
+cos109
+p1 watershed, watkinsville GA
+cos watershed ini 
+med prod levels
+alfalfa2
+1  #landuse
+1.14000 0.00000 169 29 0.06133 0.48156
+1 # mang annual
+440.70001 0.00600 0.48156 0.00600 1.00000
+1  # rtyp - temporary
+0.19240 0.02169 0.10000 0.20000 0.11117
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+cucs 1
+cucumbers
+1
+2
+3
+CUCUMBER
+1  #landuse
+1.10000 0.00000 200 92 0.00000 0.50000
+1 # mang annual
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+fal_21953 1
+fallow corn
+1
+2
+3
+CORNl
+1  #landuse
+1.10000 0.00000 200 92 0.00000 0.50000
+1 # mang annual
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+fal_13380 1
+fallow initial conditions - corn residue
+No residue or canopy cover
+Low roughness
+fallow system specified here
+CORNl
+1  #landuse
+1.10000 0.00000 200 2000 0.00000 0.00000
+3 # mang fallow
+500.00000 0.02000 0.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------------------------------------
+gra_6072 1
+grass strip
+1
+2
+3
+bromegr1
+1  #landuse
+1.10000 0.50000 200 92 0.00000 0.50000
+2 # mang perennial
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+#-------------------------------------------------------------------------
+gra_3425 1
+grass strip - permanent - no planting or killing in rotation
+Initial conditions for a perennial grass strip already in existence
+Can use this initial condition to run permanent grass strips
+and have no disturbance, planting or other operations
+bromegr1
+1  #landuse
+1.10000 0.50000 200 92 0.00000 0.50000
+2 # mang perennial
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+#-------------------------------------------------------------------------
+Liv_0650 1
+Live winter wheat in a continuous wheat rotation
+Live winter wheat initial conditions.  Planted into wheat residue
+50 percent ground cover, 40% live canopy cover.
+Created by dcf  2-26-99
+WHEATSD
+1  #landuse
+1.10000 0.40000 60 70 0.00000 0.50000
+1 # mang annual
+150.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.10000
+
+#-------------------------------------------------------------------------
+Liv_12886 1
+Live winter wheat planted into soybean residue previous fall
+Live winter wheat initial conditions.  Planted into soybean residue
+50 percent ground cover, 40% live canopy cover.
+Created by dcf  2-25-99
+soybean2
+1  #landuse
+1.10000 0.40000 60 70 0.00000 0.50000
+1 # mang annual
+150.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.10000
+
+#-------------------------------------------------------------------------
+Win_3328 1
+Winter wheat harvest in fall prior, no-till system
+Initial conditions following wheat harvest
+95 percent ground cover
+(null)
+WHEATSD
+1  #landuse
+1.10000 0.00000 410 45 0.00000 0.95000
+1 # mang annual
+500.00000 0.10000 0.95000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.01000
+
+
+#-------------------------------------------------------------------------
+Win_10049 1
+Winter wheat harvest in summer 1 yr prior, no-till planting system
+Initial conditions following wheat harvest 1 yr prior
+60 percent ground cover
+rodweeder in year 3, planting in year 1, harvest in year 2
+WHEATSD
+1  #landuse
+1.10000 0.00000 410 45 0.00000 0.60000
+1 # mang annual
+500.00000 0.10000 0.60000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.01000
+
+
+#-------------------------------------------------------------------------
+Win_21003 1
+Winter wheat harvest, straw baling, then fall moldboard plowing
+Initial conditions following wheat harvest, straw baling, and plowing
+5 percent ground cover, rough surface
+(null)
+WHEATSD
+1  #landuse
+1.10000 0.00000 120 175 0.00000 0.05000
+1 # mang annual
+500.00000 0.10000 0.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.20000
+
+
+#-------------------------------------------------------------------------
+Win_21606 1
+Winter Wheat, chic watershed
+Winter wheat
+wepp validation for watershed
+(null)
+wiwheat2
+1  #landuse
+1.20000 0.10000 75 65 0.00000 0.05000
+1 # mang annual
+150.00000 0.05000 0.05000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.08000 0.25000
+
+#-------------------------------------------------------------------------
+Aft_0243 1
+After fall sorghum harvest, no tillage
+After fall harvest of sorghum, no till
+John Laflen
+(null)
+sorghum1
+1  #landuse
+1.10000 0.00000 200 115 0.00000 0.90000
+3 # mang fallow
+500.00000 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Aft_6957 1
+After fall sunflower harvest, no tillage
+After fall harvest of sunflower, no till
+John Laflen
+(null)
+SUNFLOWR
+1  #landuse
+1.10000 0.00000 200 115 0.00000 0.90000
+3 # mang fallow
+500.00000 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Aft_4921 1
+After Winter wheat with no till
+After harvest of  Wheat in July
+90 % residue cover
+800 mm of rain since last tillage in fall prior
+WHEAT
+1  #landuse
+1.10000 0.00000 480 175 0.00000 0.95000
+1 # mang annual
+800.00000 0.02000 0.95000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+#-------------------------------------------------------------------------
+Aft_0154 1
+After fall corn harvest, no tillage
+After fall harvest of corn, no till
+John Laflen
+(null)
+corn0001
+1  #landuse
+1.10000 0.00000 200 115 0.00000 0.90000
+3 # mang fallow
+500.00000 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+#-------------------------------------------------------------------------
+Aft_14913 1
+After sugarbeets
+After sugarbeets, with fall digger lister and disking
+20% cover
+100 mm of rain since last tillage
+SUGRBEET
+1  #landuse
+1.10000 0.00000 60 92 0.00000 0.20000
+1 # mang annual
+100.00000 0.02000 0.20000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.50000 0.20000
+
+#-------------------------------------------------------------------------
+Aft_22124 1
+After alfalfa was chisel plowed in fall
+After fall chisel of long term alfalfa
+(null)
+20
+alfalfa1
+1  #landuse
+1.10000 0.50000 1600 1600 0.00000 0.55000
+2 # mang perennial
+5000.00000 0.02000 0.55000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.20000
+
+#-------------------------------------------------------------------------
+Rye_4152 1
+Ryegrass cover crop
+Ryegrass cover crop planted in previous September
+John Laflen
+(null)
+RYECOVER
+1  #landuse
+1.10000 0.50000 165 165 0.00000 0.20000
+2 # mang perennial
+300.00000 0.02000 0.20000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#-------------------------------------------------------------------------
+Aft_13155 1
+After harvest of broccoli
+After harvest of broccoli in Hawaii, lots of tillage
+John Laflen
+200 mm of rain since last tillage
+Broccoli
+1  #landuse
+1.10000 0.00420 44 22 0.00000 0.00000
+1 # mang annual
+210.00000 0.01000 0.00000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+
+#-------------------------------------------------------------------------
+Aft_9323 1
+After harvest of bell pepper
+After harvest of bell pepper in Hawaii, no tillage since harvest
+John Laflen
+300 mm of rain since last tillage
+Bellpepp
+1  #landuse
+1.10000 0.00420 96 17 0.00000 0.70000
+1 # mang annual
+300.00000 0.01000 0.70000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_18347 1
+After harvest of Sugarcane
+After harvest of sugarcane in Hawaii, no tillage
+John Laflen
+1600 mm of rain since last tillage
+Sug_17504
+1  #landuse
+1.10000 0.00000 700 113 0.00000 0.40000
+1 # mang annual
+1600.00000 0.02000 0.40000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+
+#-------------------------------------------------------------------------
+Aft_28716 1
+After harvest of watermellon
+After harvest of watermellon in Hawaii, no tillage
+John Laflen
+230 mm of rain since last tillage
+WATERMEL
+1  #landuse
+1.10000 0.00000 132 13 0.00000 0.70000
+1 # mang annual
+230.00000 0.01000 0.70000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_23629 1
+After cabbage no tillage between harvest and beginning of rotation
+After harvest of  cabbage in December
+80 % residue cover
+300 mm of rain since last tillage
+CABBAGE
+1  #landuse
+1.10000 0.00000 68 19 0.00000 0.80000
+1 # mang annual
+300.00000 0.01000 0.80000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+#-------------------------------------------------------------------------
+Aft_32243 1
+After harvest of cucumber
+After harvest of cucumber in Hawaii, no tillage between harvest and beginning of rotation
+John Laflen
+450 mm of rain since last tillage
+CUCUMBER
+1  #landuse
+1.10000 0.00420 96 17 0.00000 0.85000
+1 # mang annual
+450.00000 0.01000 0.85000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_26979 1
+After harvest of onionweeds
+After harvest of onionweeds in Hawaii, no tillage after harvest
+John Laflen
+600 mm of rain since last tillage
+Oni_27515
+1  #landuse
+1.10000 0.00420 44 22 0.00000 0.70000
+1 # mang annual
+600.00000 0.01000 0.70000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_3737 1
+After harvest of green snap beans
+After harvest of green snap beans in Hawaii, lots of tillage
+John Laflen
+200 mm of rain since last tillage
+SNAPBEAN
+1  #landuse
+1.10000 0.00420 44 22 0.00000 0.00000
+1 # mang annual
+210.00000 0.01000 0.00000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_7730 1
+After sweet corn, no tillage between harvest and beginning of rotation
+After harvest of  sweet corn in December
+90 % residue cover
+400 mm of rain since last tillage
+SWEETCOR
+1  #landuse
+1.10000 0.00000 480 175 0.00000 0.90000
+1 # mang annual
+400.00000 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+#-------------------------------------------------------------------------
+Aft_21073 1
+After sweet potato, no tillage between harvest and beginning of rotation
+After harvest of  sweet potato in December
+50% residue cover
+400 mm of rain since last tillage
+SWEETPOT
+1  #landuse
+1.10000 0.00000 142 54 0.00000 0.50000
+1 # mang annual
+400.00000 0.01000 0.50000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+#-------------------------------------------------------------------------
+Aft_25963 1
+After harvest of tomato
+After harvest of tomato in Hawaii, no tillage
+John Laflen
+800 mm of rain since last tillage
+TOMATO
+1  #landuse
+1.10000 0.00000 285 200 0.00000 0.40000
+1 # mang annual
+800.00000 0.01000 0.40000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.02540
+0.02000 0.13000
+
+#-------------------------------------------------------------------------
+Aft_12889 1
+After Barley with Fall Chisel
+After harvest of  Barley in August
+50% initial residue cover
+150 mm of rain since last tillage in fall prior
+Bar_8319
+1  #landuse
+1.10000 0.00000 75 150 0.00000 0.50000
+1 # mang annual
+152.39999 0.08001 0.50000 0.04999 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.33627 0.16813
+
+#-------------------------------------------------------------------------
+Aft_14120 1
+After Barley with no till
+After harvest of  Barley in August
+90% initial residue cover
+375 mm of rain since last tillage in fall prior
+Bar_8319
+1  #landuse
+1.10000 0.00000 265 150 0.00000 0.90000
+1 # mang annual
+375.00000 0.01000 0.90000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.33630 0.16810
+
+#-------------------------------------------------------------------------
+Aft_11389 1
+After planting Winter wheat with mulch till
+For continuous winter wheat, no till.  Wheat was planted Oct 1
+90 % residue cover
+175 mm of rain since last tillage in fall prior
+Whe_27068
+1  #landuse
+1.10000 0.20000 90 150 0.00000 0.20000
+1 # mang annual
+175.00000 0.02000 0.20000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40000 0.10000
+
+#-------------------------------------------------------------------------
+Aft_31305 1
+After planting Winter wheat with no till
+For continuous winter wheat, no till.  Wheat was planted Oct 1
+90 % residue cover
+175 mm of rain since last tillage in fall prior
+Whe_27068
+1  #landuse
+1.10000 0.20000 90 150 0.00000 0.90000
+1 # mang annual
+175.00600 0.02000 0.90000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40005 0.10000
+
+#-------------------------------------------------------------------------
+Aft_7016 1
+After Winter wheat with moldboard plowing
+After harvest of  Wheat in July
+5% residue cover
+150 mm of rain since last tillage in fall prior
+Whe_27068
+1  #landuse
+1.10000 0.00000 75 150 0.00000 0.05000
+1 # mang annual
+152.39999 0.08001 0.05000 0.04999 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40005 0.60002
+
+#-------------------------------------------------------------------------
+Aft_5343 1
+After Winter wheat, no till
+After harvest of  Wheat in July
+100% residue cover
+800 mm of rain since last tillage in fall prior
+Whe_27068
+1  #landuse
+1.10000 0.00000 480 175 0.00000 1.00000
+1 # mang annual
+800.09998 0.02000 1.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40005 0.10000
+
+#-------------------------------------------------------------------------
+Con_21133 1
+Continuous winter wheat in burn low till
+Wheat stubble burned, then planted
+5% residue cover
+(null)
+Whe_27068
+1  #landuse
+1.10000 0.15000 480 175 0.00000 0.20000
+1 # mang annual
+800.09998 0.02000 0.20000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.40005 0.10000
+
+#-------------------------------------------------------------------------
+Mou_4482 1
+Mountain Big Sagebrush
+Mountain Big Sagebrush
+jml 4-10-01
+3
+Mou_4129
+1  #landuse
+1.10000 0.60000 20000 20000 0.00000 0.30000
+2 # mang perennial
+700.02399 0.01700 0.30000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.00000 0.00000
+0.19997 0.00000
+
+#-------------------------------------------------------------------------
+Mou_21685 1
+Mountain Big Sagebrush with grazing
+Mountain Big Sagebrush
+jml 4-10-01
+3
+Mou_21865
+1  #landuse
+1.10000 0.60000 20000 20000 0.00000 0.30000
+2 # mang perennial
+700.02399 0.01700 0.30000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.00000 0.00000
+0.19997 0.00000
+
+
+#----------------------------
+Big_15575  1
+Big Sacaton Grassland
+Big Sacaton Grassland-sparse vegetation
+(null)
+(null)
+Big_15014
+1  #landuse
+1.30000 0.40000 20000 20000 0.00000 0.10000
+2 # mang perennial
+508000.00000 0.00152 0.10000 0.00152 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.05604 0.00000
+
+
+#----------------------------
+Blu_6707  1
+Blue Grama-buffalograss, Amarillo TX good-67
+>From Amarillo TX, good ecological status-67
+John Laflen
+Estimated from NRST data
+Blu_6139
+1  #landuse
+1.10000 0.16000 20000 20000 0.00000 0.81000
+2 # mang perennial
+30000.00000 0.01000 0.82000 0.00800 0.00000
+2  # rtyp - permanent
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+
+#----------------------------
+Blu_27146  1
+Bluestem Prarie, fair condition
+Built for fair condition Bluestem Prarie at Eureka KS
+Created by John Laflen
+3
+Blu_26799
+1  #landuse
+1.10000 0.39000 20000 20000 0.00000 0.56000
+2 # mang perennial
+500.10001 0.01700 0.61000 0.00800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Blu_30831  1
+Bluestem Prarie, fair condition, Wahoo NE
+Built for fair condition Bluestem Prarie at Wahoo NE
+Created by John Laflen
+3
+Blu_30515
+1  #landuse
+1.10000 0.22000 20000 20000 0.00000 0.88000
+2 # mang perennial
+500.12601 0.01700 0.77000 0.00900 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+#----------------------------
+Blu_25255  1
+Bluestem Prarie, Good condition
+Built for good condition Bluestem Prarie at Eureka KS
+Created by John Laflen
+3
+Blu_24422
+1  #landuse
+1.10000 0.62000 20000 20000 0.00000 0.74000
+2 # mang perennial
+500.10001 0.01700 0.36000 0.00900 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Blu_23446  1
+Bluestem Prarie, Poor condition
+Built for poor condition Bluestem Prarie at Eureka KS
+Created by John Laflen
+3
+Blu_22848
+1  #landuse
+1.10000 0.56000 20000 20000 0.00000 0.70000
+2 # mang perennial
+500.10001 0.01700 0.46000 0.01200 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Blu_29545  1
+Bluestem Prarie, Poor condition, Wahoo NE
+Built for poor condition Bluestem Prarie at Wahoo NE
+Created by John Laflen
+3
+Blu_29061
+1  #landuse
+1.10000 0.28000 20000 20000 0.00000 0.78000
+2 # mang perennial
+500.10001 0.01700 0.69000 0.00900 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Bro_28295  1
+Bromegrass initial conditions
+1
+2
+3
+bromegrass
+1  #landuse
+1.10000 1.00000 200 92 0.00000 1.00000
+2 # mang perennial
+500.12601 0.02000 1.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+#----------------------------
+Cal_31611  1
+California Steppe initial conditions
+1
+Created by John Laflen
+3
+Cal_30553
+1  #landuse
+1.10000 0.87000 20000 20000 0.00000 0.64000
+2 # mang perennial
+500.10001 0.01700 0.12000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Cal_2807  1
+California Steppe initial conditions-poor ecological condition
+For San Louis Obispo CA
+Created by John Laflen
+3
+Cal_30553
+1  #landuse
+1.10000 0.87000 20000 20000 0.00000 0.64000
+2 # mang perennial
+25400.00000 0.01700 0.12000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+#----------------------------
+Mou_18342  1
+Mountain Big Sagebrushinitial conditions
+1
+Created by John Laflen
+3
+Mou_17617
+1  #landuse
+1.10000 0.79000 20000 20000 0.00000 0.84000
+2 # mang perennial
+500.10001 0.01700 0.18000 0.02800 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+#----------------------------
+Mou_25458  1
+Mountain Big Sagebrush grazing, burning
+Grazing, burning every 30 years
+jml 4-6-01
+3
+Mtn_23306
+1  #landuse
+1.10000 0.00000 20000 20000 0.00000 0.30000
+2 # mang perennial
+15240.00000 0.01700 0.30000 0.02799 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.19997 0.00000
+
+
+#----------------------------
+peanut  1
+peanut
+1
+2
+3
+peanut1
+1  #landuse
+1.10000 0.00000 200 92 0.00000 0.50000
+1 # mang annual
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#----------------------------
+waterm  1
+watermelon
+test 1
+test 2
+test 3
+WATERMEL
+1  #landuse
+1.10000 0.00000 207 92 0.00000 0.50000
+1 # mang annual
+500.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+#------------------------------
+Aft_7317 1
+After high severity burn-disturbed WEPP
+initial conditions following a high severity fire
+W. Elliot 3/98
+
+1	# `landuse' - <Cropland>
+1  #landuse
+1.10000 0.08000 1000 900 0.00000 0.00000
+2 # mang perennial
+500.00000 0.10000 0.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+#-------------------------------
+Aft_7265 1
+After low severity burn-disturbed WEPP
+Initial Conditions after a low-severity burn
+W. Elliot 3/98
+
+1	# `landuse' - <Cropland>
+1  #landuse
+1.10000 0.25000 1000 900 0.00000 0.00000
+2 # mang perennial
+1000.00000 0.10000 0.10000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+#---------------------------------
+Fil_9924 1
+FILL-road WEPP
+Initial conditions on a fill slope
+W. Elliot & H. Rhee 1/99; transformed by Laflen, 6/2002
+
+For_6933
+1  #landuse
+1.40000 0.20000 500 500 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.50000 0.04999 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00100 0.00300
+
+#---------------------------------------
+For_2466 1
+Forest buffer-Road WEPP
+Initial Forest Conditions in Cropland Format
+W. Elliot & H. Rhee 1/99; transformed by Laflen, 6/2002
+(null)
+For_6322
+1  #landuse
+1.20000 0.80000 500 500 0.00000 1.00000
+2 # mang perennial
+999.99799 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+#---------------------------------------
+For_0052 1
+FOREST-Road WEPP
+Initial Forest Conditions in Cropland Format
+W. Elliot & H. Rhee 1/99; transformed by Laflen, 6/2002
+
+For_6322
+1  #landuse
+1.20000 0.80000 500 500 0.00000 1.00000
+2 # mang perennial
+999.99799 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+
+#----------------------------------------
+Mat_4862 1
+Mature forest-disturbed WEPP
+Mature forest for initial conditions
+for Disturbed WEPP
+J.M. Laflen-10-27-02
+For_3598
+1  #landuse
+1.10000 0.10000 1000 900 0.00000 1.00000
+2 # mang perennial
+1000.00000 0.10000 1.00000 0.20000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.50000
+
+#----------------------------------------
+Roa_9817 1
+Road-insloped
+Initial Conditions for insloped forest Road 
+W. Elliot & H. Rhee 1/99, transformed by Laflen, 6/2002
+
+Fil_6371
+1  #landuse
+1.80000 0.00000 210 500 0.00000 0.00000
+3 # mang fallow
+420.11603 0.20000 0.00000 0.02000 4.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-----------------------------------------
+Rut_6694 1
+Road-outsloped rutted
+Initial Conditions for a rutted forest Road in Cropland Format
+W. Elliot & H. Rhee 1/99  USDA Forest Service, transformed by Laflen, 6/2002
+(null)
+Fil_6371
+1  #landuse
+1.80000 0.00000 210 500 0.00000 0.00000
+3 # mang fallow
+420.11603 0.10000 0.00000 0.02000 2.00002
+2  # rtyp - permanent
+0.00000 0.00000 0.10000 0.20000 0.20000
+0.00000 0.00000
+
+
+#-----------------------------------------
+Roa_9817 1
+Road-outsloped unrutted
+Initial Conditions for outsloped, unrutted forest Road 
+W. Elliot & H. Rhee 1/99, transformed by Laflen, 6/2002
+
+Fil_6371
+1  #landuse
+1.80000 0.00000 210 500 0.00000 0.00000
+3 # mang fallow
+420.11603 0.00600 0.00000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+
+#-------------------------------------------
+Sho_7170 1
+Short grass prarie-disturbed WEPP
+Initial conditions for short grass prairie
+W. Elliot 01/99
+
+sho_2024
+1  #landuse
+1.10000 0.20000 1000 900 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.50000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+
+#-------------------------------------------
+Shr_7102 1
+Shrub rangeland-disturbed WEPP
+Shrub Rangeland including sage and Pinyon Juniper
+for disturbed WEPP
+W. Elliot 02/99
+shr_1952
+1  #landuse
+1.10000 0.40000 500 600 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.10000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.19997
+
+#---------------------------------------------
+Ski_6991 1
+Skid trail-disturbed wEPP
+Initial Conditions for a skid trail
+W. Elliot 01/99
+
+ski_1897
+1  #landuse
+1.30000 0.05000 100 110 0.00000 1.00000
+2 # mang perennial
+199.99960 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+
+#----------------------------------------------
+Tal_6939 1
+Tall grass prarie-disturbed WEPP
+Tall Grass prairie
+for disturbed WEPP
+W. Elliot 01/99
+TAL_4689
+1  #landuse
+1.10000 0.30000 1000 900 0.00000 0.80000
+2 # mang perennial
+999.99799 0.10000 0.80000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+#---------------------------------------------
+Tre_6854 1
+Tree-20 yr forest-disturbed WEPP
+Initial conditions for 20-year old forest
+for Disturbed WEPP
+W.Elliot  02/99
+veg_2141
+1  #landuse
+1.10000 0.90000 1000 100 0.00000 1.00000
+2 # mang perennial
+999.99799 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.50000
+
+
+#----------------------------------------------
+Tre_6834 1
+Tree-5 yr forest-disturbed WEPP
+Five-year old forest
+for Disturbed WEPP
+W. Elliot 01/99
+Tre_3082
+1  #landuse
+1.10000 0.50000 1000 100 0.00000 0.20000
+2 # mang perennial
+999.99799 0.10000 0.20000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+#---------------------------------------------
+Sho_1583 1
+Short grass prarie
+Initial conditions for short grass prairie
+j. lAFLEN, 10/2002
+(null)
+sho_2024
+1  #landuse
+1.10000 0.20000 1000 900 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.50000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+
+#-------------------------------------------
+Shr_1276 1
+Shrub rangeland
+Shrub Rangeland including sage and Pinyon Juniper
+WEPP
+lAFLEN 10/2002
+shr_1952
+1  #landuse
+1.10000 0.40000 500 600 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.10000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.19997
+
+
+#--------------------------------------------
+Tal_1955 1
+Tall grass prarie
+Tall Grass prairie
+(null)
+J. Laflen, 10/2002
+TAL_4689
+1  #landuse
+1.10000 0.30000 1000 900 0.00000 0.80000
+2 # mang perennial
+999.99799 0.10000 0.80000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+
+#-------------------------------------------
+Tre_2239 1
+Tree-20 yr forest
+Initial conditions for 20-year old forest
+(null)
+J. Laflen, 10/2002
+Tre_2932
+1  #landuse
+1.10000 0.90000 1000 100 0.00000 1.00000
+2 # mang perennial
+999.99799 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+
+#-------------------------------------------
+Tre_2670 1
+Tree-5 yr forest
+Five-year old forest
+(null)
+J. Laflen, 10/2022
+Tre_3082
+1  #landuse
+1.10000 0.50000 1000 100 0.00000 0.20000
+2 # mang perennial
+999.99799 0.10000 0.20000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+#----------------- data from chris renschler and bill elliot
+18%_4343 1
+18% Shortgrass Prarie
+1
+Bill Eliot & Chris Renschler
+3
+18%_4496
+1  #landuse
+1.30000 0.18000 20000 20000 0.00000 0.18000
+1 # mang annual
+10000.00000 0.01000 0.18000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+25%_2046 1
+25% ground cover - high severity burn
+1
+2
+CS Renschler & Bill Elliot Feb 2003
+Hig_8908
+1  #landuse
+1.10000 0.25000 200 92 0.00000 0.25000
+1 # mang annual
+500.10001 0.02000 0.25000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+28%_0590 1
+28% Shortgrass Prarie
+1
+Bill Eliot & Chris Renschler
+3
+28%_0443
+1  #landuse
+1.30000 0.28000 20000 20000 0.00000 0.28000
+1 # mang annual
+9999.98047 0.01000 0.28000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+45%_2174 1
+45% ground cover - moderate severity burn
+1
+2
+CS Renschler & Bill Elliot Feb 2003
+45%_1811
+1  #landuse
+1.10000 0.45000 200 92 0.00000 0.45000
+1 # mang annual
+500.10001 0.02000 0.45000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+90%_3487 1
+90% ground cover - low severity burn
+1
+2
+CS Renschler & Bill Elliot Feb 2003
+90%_3144
+1  #landuse
+1.10000 0.90000 200 92 0.00000 0.90000
+1 # mang annual
+500.10001 0.02000 0.90000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+
+
+Bro_9754 1
+Bromegrass initial conditions 25% cover
+1
+2
+3
+bromegr3
+1  #landuse
+1.10000 0.25000 200 92 0.00000 0.25000
+2 # mang perennial
+500.12601 0.02000 0.25000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+Bro_1349 1
+Bromegrass initial conditions 75% cover
+1
+2
+3
+bromegr3
+1  #landuse
+1.10000 0.75000 200 92 0.00000 0.75000
+2 # mang perennial
+500.12601 0.02000 0.75000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+Hig_9241 1
+High Severity Fire - 25% ground cover
+1
+2
+CS Renschler & Bill Elliot Feb 2003
+Hig_8908
+1  #landuse
+1.10000 0.25000 200 92 0.00000 0.25000
+1 # mang annual
+500.10001 0.02000 0.25000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+#-------------data from john laflen ------------------
+Cut_3980 1
+Cut slope
+Initial conditions on a cut slope
+J. M. Laflen, 2/03
+(null)
+Cut_3738
+1  #landuse
+2.00000 0.00000 0 0 0.00000 0.05000
+3 # mang fallow
+1000.00000 0.01000 0.05000 0.01000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.02000 0.04000 0.00000
+0.00100 0.00300
+
+fal_9293 1
+fallow
+Initial Conditions for a skid trail
+W. Elliot 01/99
+(null)
+not_9414
+1  #landuse
+1.00000 0.00000 0 0 0.00000 0.00000
+3 # mang fallow
+0.00000 0.00000 0.00000 0.00000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+Fil_4156 1
+Fill slope
+Initial conditions on a fill slope
+W. Elliot & H. Rhee 1/99; transformed by Laflen, 6/2002
+(null)
+Fil_4091
+1  #landuse
+2.00000 0.00000 0 0 0.00000 0.50000
+2 # mang perennial
+999.99799 0.10000 0.50000 0.04999 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00100 0.00300
+
+fun_7317 1
+Skid Trail 
+Initial Conditions for a skid trail
+W. Elliot 01/99
+(null)
+Fil_6371
+1  #landuse
+1.00000 0.20000 0 0 0.00000 0.50000
+2 # mang perennial
+199.99960 0.10000 0.10000 0.20000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.10000 0.10000
+
+Ins_6503 1
+Insloped  Road - bare
+Initial Conditions for an insloped forest Road bare
+Laflen, 2-03
+Rill spacing of 4 m
+Fil_6371
+1  #landuse
+1.00000 0.00000 0 0 0.00000 0.00000
+3 # mang fallow
+420.11603 0.00600 0.00000 0.00600 4.00055
+1  # rtyp - temporary
+0.00000 0.00000 0.02540 0.02540 0.00000
+0.00000 0.00000
+
+Ins_4741 1
+Insloped  Road with bare ditch
+Initial Conditions for an insloped forest Road with a bare ditch in Cropland Format
+W. Elliot & H. Rhee 1/99  USDA Forest Service, transformed by Laflen, 6/2002
+Rill spacing of 4 m
+ins_7107
+1  #landuse
+1.00000 0.00000 0 0 0.00000 0.00000
+3 # mang fallow
+420.11603 0.00600 0.00000 0.00600 4.00055
+1  # rtyp - temporary
+0.00000 0.00000 0.02540 0.02540 0.00000
+0.00000 0.00000
+
+Ins_5971 1
+Insloped  Road with rock ditch
+Initial Conditions for an insloped forest Road with a rock ditch in Cropland Format
+J. M. Laflen, Febr. 2003
+Rill spacing of 4 m
+Roc_5831
+1  #landuse
+1.00000 0.00000 0 0 0.00000 0.00000
+3 # mang fallow
+420.11603 0.00600 1.00000 0.00600 4.00055
+1  # rtyp - temporary
+0.00000 0.00000 0.02540 0.02540 0.00000
+0.00000 0.00000
+
+Ins_9885 1
+Insloped Rutted Road
+Initial Conditions for a rutted forest Road in Cropland Format
+W. Elliot & H. Rhee 1/99  USDA Forest Service, transformed by Laflen, 6/2002
+Rutted road rill spacing of 2m, 80 inches
+Fil_6371
+1  #landuse
+1.00000 0.50000 0 0 0.00000 0.50000
+3 # mang fallow
+420.11603 0.00600 0.00000 0.02000 2.03202
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.00000 0.00000
+
+Reg_8403 1
+Regeneration initial conditions
+Initial conditions for 20-year old forest
+for Disturbed WEPP
+laflen
+Tre_2932
+1  #landuse
+1.20000 0.10000 0 0 0.00000 1.00000
+2 # mang perennial
+1000.00000 0.00600 1.00000 0.00600 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.02000 0.04000 0.00000
+0.50000 0.50000
+
+30%_0870  0
+30% Cover after fire
+For the first year after wildfire
+W. Elliot  Feb, 2005
+(null)
+30%_0697
+1  #landuse
+1.10000 0.30000 200 92 0.00000 0.30000
+2 # mang perennial
+500.12601 0.02000 0.30000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.19997 0.00000
+
+
+For_5688  1
+Forest Perennial
+Initial conditions for forest
+With WSU WEPP Senescence change
+W. Elliot  01/07
+For_5352
+1  #landuse
+1.10000 0.90000 1000 1000 0.00000 1.00000
+2 # mang perennial
+999.99799 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50003 0.50003
+
+For_6413  1
+Forest_5yr_Perennial
+Five-year old forest
+Use with WEPP modified with WSU perrenial routines
+W Elliot  01/07
+For_6328
+1  #landuse
+1.10000 0.50000 1000 1000 0.00000 1.00000
+2 # mang perennial
+1000.00000 0.10000 1.00000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.50000 0.50000
+
+Shr_7020  1
+Shrub_Perennial
+Shrub Rangeland including sage and Pinyon Juniper
+for WEPP with WSU senescence modification
+W. Elliot 01/07
+Shr_6877
+1  #landuse
+1.10000 0.40000 1000 1000 0.00000 0.85000
+2 # mang perennial
+1000.00000 0.10000 0.85000 0.10000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.20000
+
+Pav_8192  1
+Pavement surface
+Intial conditions for pavement surface
+Flanagan 11-9-07
+ABE325
+Fil_6371
+1  #landuse
+1.00000 0.00000 2000 2000 0.00000 0.00000
+3 # mang fallow
+50800.00000 0.00000 0.00000 0.00000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.00000 0.00000 0.00000
+0.00000 0.00000
+
+sho_4910  1
+short grass - for lawns and parks.
+Initial conditions for a perennial grass strip already in existence
+Shorter grass more typical of lawns and parks than original default grass parameters
+(null)
+Gra_4074
+1  #landuse
+1.10000 0.15000 2000 92 0.00000 0.50000
+2 # mang perennial
+5000.00000 0.02000 0.50000 0.02000 0.00000
+1  # rtyp - temporary
+0.00000 0.00000 0.10000 0.20000 0.00000
+0.20000 0.00000
+
+

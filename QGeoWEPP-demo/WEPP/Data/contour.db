@@ -1,0 +1,79 @@
+99.1
+#
+# contour database modified: Mon May 17 11:24:57 AM 1999
+#
+8
+#
+# contour scenario 1 of 8
+#
+1.5_13395 1
+1.5% Contour
+1.5% Contour
+WEPP distribution database
+example created by jrf
+0.015000 0.100000 20.000000 1.000000
+#
+# contour scenario 2 of 8
+#
+2%_10306 1
+2% Contour
+2% Contour
+WEPP distribution database
+example created by jrf
+0.020000 0.100000 20.000000 1.000000
+#
+# contour scenario 3 of 8
+#
+flat3 1
+Flat contour 10 feet wide
+Flat contour 10 feet wide
+WEPP distribution by jrf
+example created by jrf
+0.005000 0.100010 20.001221 3.048040
+#
+# contour scenario 4 of 8
+#
+up10 1
+Raised contour 10 feet wide
+Raised contour 10 feet wide
+WEPP distribution database
+example created by jrf
+0.010000 0.499880 10.000610 3.048040
+#
+# contour scenario 5 of 8
+#
+up11 1
+Raised contour 11 feet wide
+Raised contour 11 feet wide
+WEPP distribution database
+example created by jrf
+0.005000 0.100010 10.000610 3.352840
+#
+# contour scenario 6 of 8
+#
+wide20 1
+Raised contour 20 feet wide
+Raised contour 20 feet wide
+WEPP distribution database
+example created by jrf
+0.005000 0.100010 25.000000 6.096070
+#
+# contour scenario 7 of 8
+#
+up5 1
+Raised contour 5 feet wide
+Raised contour 5 feet wide
+WEPP distribution database
+example created by jrf
+0.005000 0.100010 14.999390 1.524020
+#
+# contour scenario 8 of 8
+#
+0.5_9922 1
+0.5% Contour
+0.5% Contour
+WEPP distribution database
+example created by jrf
+0.00500 0.10000 20.00000 1.00000
+
+
