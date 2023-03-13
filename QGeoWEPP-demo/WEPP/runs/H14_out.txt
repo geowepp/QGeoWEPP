@@ -1,0 +1,179 @@
+ Annual; abbreviated (Metric Units)                                     
+
+
+          USDA WATER EROSION PREDICTION PROJECT
+          -------------------------------------
+
+          HILLSLOPE PROFILE AND WATERSHED MODEL
+                     VERSION  2012.800
+           August 30,       2012
+
+
+               TO REPORT PROBLEMS OR TO BE PUT ON THE MAILING
+               LIST FOR FUTURE WEPP MODEL RELEASES, PLEASE CONTACT:
+
+                    WEPP TECHNICAL SUPPORT
+                    USDA-AGRICULTURAL RESEARCH SERVICE
+                    NATIONAL SOIL EROSION RESEARCH LABORATORY
+                    275 SOUTH RUSSELL STREET
+                    WEST LAFAYETTE, IN 47907-2077  USA
+
+                    PHONE: (765) 494-8673
+                      FAX: (765) 494-5948
+                    email:  wepp@ecn.purdue.edu
+                      URL:  http://topsoil.nserl.purdue.edu
+
+
+     HILLSLOPE INPUT DATA FILES - VERSION  2012.800
+      August 30,       2012
+
+
+    MANAGEMENT: p76.man                                           
+ MAN. PRACTICE: description 1                                               
+                description 2                                               
+                description 3                                               
+         SLOPE: p76.slp                                           
+       CLIMATE: p76.cli                                           
+    Station: LUCKY HILL_1 AZ        WEPPWIN:2004                                4.30
+          SOIL: p76.sol                                           
+      PLANE  1 LH73                clay loam           
+
+
+     ANNUAL AVERAGE SUMMARIES
+     ------------------------
+
+
+I.   RAINFALL AND RUNOFF SUMMARY
+     -------- --- ------ -------
+
+      total summary:  years    1 -   42
+
+      1983 storms produced                        12363.39 mm of precipitation
+       237 rain storm runoff events produced        808.50 mm of runoff
+         1 snow melts and/or
+             events during winter produced            3.90 mm of runoff
+
+      annual averages
+      ---------------
+
+        Number of years                                   42
+        Mean annual precipitation                     294.37    mm
+        Mean annual runoff from rainfall               19.25    mm
+        Mean annual runoff from snow melt
+          and/or rain storm during winter               0.09    mm
+
+
+
+II.  ON SITE EFFECTS  ON SITE EFFECTS  ON SITE EFFECTS
+     ---------------  ---------------  ---------------
+
+
+  A.  AREA OF NET SOIL LOSS
+
+      ** Soil Loss (Avg. of Net Detachment Areas) =    0.452 kg/m2 **
+      ** Maximum Soil Loss  =    1.380 kg/m2 at   23.64 meters **
+
+
+      Area of    Soil Loss   Soil Loss   MAX   MAX Loss   MIN   MIN Loss
+      Net Loss      MEAN      STDEV      Loss    Point    Loss   Point
+        (m)       (kg/m2)     (kg/m2)  (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+   0.00-   7.18    0.304     0.100      0.421    0.30     0.006     7.18
+   8.08-  15.26    0.541     0.290      1.048   14.06     0.072    11.07
+  15.86-  18.55    0.360     0.218      0.670   17.36     0.055    18.55
+  19.15-  20.65    0.084     0.045      0.128   20.35     0.013    19.45
+  22.14-  24.84    0.754     0.445      1.380   23.64     0.036    22.44
+  25.43-  29.92    0.542     0.340      1.236   29.92     0.046    25.73
+
+  B.  AREA OF SOIL DEPOSITION
+
+      ** Soil Deposition (Avg. of Net Deposition Areas) =    -0.149 kg/m2 **
+      ** Maximum Soil Deposition  =    -0.446 kg/m2 at   22.14 meters **
+
+      Area of    Soil Dep   Soil Dep     MAX    MAX Dep   MIN   MIN Dep
+      Net Dep       MEAN     STDEV       Dep     Point    Dep    Point
+        (m)       (kg/m2)    (kg/m2)   (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+   7.18-   8.08   -0.070     0.036     -0.111    7.78    -0.042     8.08
+  15.26-  15.86   -0.055     0.075     -0.108   15.86    -0.003    15.56
+  18.55-  19.15   -0.054     0.014     -0.064   19.15    -0.044    18.85
+  20.65-  22.14   -0.280     0.160     -0.446   22.14    -0.053    20.95
+  24.84-  25.43   -0.129     0.073     -0.180   25.43    -0.077    25.14
+
+
+
+  C.  SOIL LOSS/DEPOSITION ALONG SLOPE PROFILE
+
+          Profile distances are from top to bottom of hillslope
+
+
+ distance soil  flow    distance   soil  flow    distance   soil  flow
+    (m)   loss  elem       (m)     loss  elem       (m)     loss  elem
+         (kg/m2)                  (kg/m2)                  (kg/m2)
+------------------------------------------------------------------------
+
+   0.30     0.421  1       10.47     0.221  1       20.65     0.110  1
+   0.60     0.366  1       10.77     0.135  1       20.95    -0.053  1
+   0.90     0.311  1       11.07     0.072  1       21.25    -0.193  1
+   1.20     0.256  1       11.37     0.206  1       21.54    -0.307  1
+   1.50     0.201  1       11.67     0.368  1       21.84    -0.403  1
+   1.80     0.216  1       11.97     0.478  1       22.14    -0.446  1
+   2.09     0.292  1       12.27     0.559  1       22.44     0.036  1
+   2.39     0.313  1       12.57     0.624  1       22.74     0.512  1
+   2.69     0.323  1       12.87     0.714  1       23.04     0.827  1
+   2.99     0.331  1       13.17     0.826  1       23.34     1.076  1
+   3.29     0.342  1       13.47     0.914  1       23.64     1.380  1
+   3.59     0.364  1       13.76     0.982  1       23.94     1.193  1
+   3.89     0.380  1       14.06     1.048  1       24.24     0.923  1
+   4.19     0.394  1       14.36     1.012  1       24.54     0.596  1
+   4.49     0.406  1       14.66     0.672  1       24.84     0.244  1
+   4.79     0.415  1       14.96     0.384  1       25.14    -0.077  1
+   5.09     0.375  1       15.26     0.167  1       25.43    -0.180  1
+   5.39     0.343  1       15.56    -0.003  1       25.73     0.046  1
+   5.69     0.325  1       15.86    -0.108  1       26.03     0.224  1
+   5.98     0.314  1       16.16     0.106  1       26.33     0.365  1
+   6.28     0.306  1       16.46     0.315  1       26.63     0.481  1
+   6.58     0.216  1       16.76     0.465  1       26.93     0.549  1
+   6.88     0.088  1       17.06     0.580  1       27.23     0.481  1
+   7.18     0.006  1       17.36     0.670  1       27.53     0.409  1
+   7.48    -0.058  1       17.65     0.540  1       27.83     0.353  1
+   7.78    -0.111  1       17.95     0.331  1       28.13     0.307  1
+   8.08    -0.042  1       18.25     0.176  1       28.43     0.284  1
+   8.38     0.266  1       18.55     0.055  1       28.73     0.524  1
+   8.68     0.460  1       18.85    -0.044  1       29.03     0.784  1
+   8.98     0.595  1       19.15    -0.064  1       29.32     0.971  1
+   9.28     0.697  1       19.45     0.013  1       29.62     1.116  1
+   9.58     0.742  1       19.75     0.065  1       29.92     1.236  1
+   9.87     0.516  1       20.05     0.101  1
+  10.17     0.338  1       20.35     0.128  1
+
+note:  (+) soil loss - detachment     (-) soil loss - deposition
+
+
+
+III. OFF SITE EFFECTS  OFF SITE EFFECTS  OFF SITE EFFECTS
+     ----------------  ----------------  ----------------
+
+     A.  AVERAGE ANNUAL SEDIMENT LEAVING PROFILE
+            11.007   kg/m of width
+              403.139     kg (based on profile width of     36.627      m)
+             3.678   t/ha (assuming contributions from     0.110     ha)
+
+
+     B.  SEDIMENT CHARACTERISTICS AND ENRICHMENT
+
+     Sediment particle information leaving profile
+-------------------------------------------------------------------------------
+                                 Particle Composition         Detached Fraction
+Class  Diameter  Specific  ---------------------------------  Sediment  In Flow
+         (mm)    Gravity   % Sand   % Silt   % Clay   % O.M.  Fraction  Exiting
+-------------------------------------------------------------------------------
+  1     0.002      2.60      0.0      0.0    100.0      1.5     0.062    0.261
+  2     0.010      2.65      0.0    100.0      0.0      0.0     0.043    0.117
+  3     0.030      1.80      0.0     53.3     46.7      0.7     0.228    0.366
+  4     0.476      1.60     67.5     19.7     12.8      0.2     0.541    0.232
+  5     0.200      2.65    100.0      0.0      0.0      0.0     0.126    0.024
+-------------------------------------------------------------------------------
+
+
+     Average annual SSA enrichment ratio leaving profile =   1.85
