@@ -1,0 +1,171 @@
+ Annual; abbreviated (Metric Units)                                     
+
+
+          USDA WATER EROSION PREDICTION PROJECT
+          -------------------------------------
+
+          HILLSLOPE PROFILE AND WATERSHED MODEL
+                     VERSION  2012.800
+           August 30,       2012
+
+
+               TO REPORT PROBLEMS OR TO BE PUT ON THE MAILING
+               LIST FOR FUTURE WEPP MODEL RELEASES, PLEASE CONTACT:
+
+                    WEPP TECHNICAL SUPPORT
+                    USDA-AGRICULTURAL RESEARCH SERVICE
+                    NATIONAL SOIL EROSION RESEARCH LABORATORY
+                    275 SOUTH RUSSELL STREET
+                    WEST LAFAYETTE, IN 47907-2077  USA
+
+                    PHONE: (765) 494-8673
+                      FAX: (765) 494-5948
+                    email:  wepp@ecn.purdue.edu
+                      URL:  http://topsoil.nserl.purdue.edu
+
+
+     HILLSLOPE INPUT DATA FILES - VERSION  2012.800
+      August 30,       2012
+
+
+    MANAGEMENT: p104.man                                          
+ MAN. PRACTICE: description 1                                               
+                description 2                                               
+                description 3                                               
+         SLOPE: p104.slp                                          
+       CLIMATE: p104.cli                                          
+    Station: LUCKY HILL_1 AZ        WEPPWIN:2004                                4.30
+          SOIL: p104.sol                                          
+      PLANE  1 LH191               clay loam           
+
+
+     ANNUAL AVERAGE SUMMARIES
+     ------------------------
+
+
+I.   RAINFALL AND RUNOFF SUMMARY
+     -------- --- ------ -------
+
+      total summary:  years    1 -   42
+
+      1983 storms produced                        12363.39 mm of precipitation
+       227 rain storm runoff events produced        663.33 mm of runoff
+         1 snow melts and/or
+             events during winter produced            4.41 mm of runoff
+
+      annual averages
+      ---------------
+
+        Number of years                                   42
+        Mean annual precipitation                     294.37    mm
+        Mean annual runoff from rainfall               15.79    mm
+        Mean annual runoff from snow melt
+          and/or rain storm during winter               0.10    mm
+
+
+
+II.  ON SITE EFFECTS  ON SITE EFFECTS  ON SITE EFFECTS
+     ---------------  ---------------  ---------------
+
+
+  A.  AREA OF NET SOIL LOSS
+
+      ** Soil Loss (Avg. of Net Detachment Areas) =    0.240 kg/m2 **
+      ** Maximum Soil Loss  =    0.658 kg/m2 at   36.95 meters **
+
+
+      Area of    Soil Loss   Soil Loss   MAX   MAX Loss   MIN   MIN Loss
+      Net Loss      MEAN      STDEV      Loss    Point    Loss   Point
+        (m)       (kg/m2)     (kg/m2)  (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+   0.00-  20.53    0.213     0.071      0.414   19.29     0.057    20.53
+  22.17-  41.05    0.269     0.153      0.658   36.95     0.084    26.27
+
+  B.  AREA OF SOIL DEPOSITION
+
+      ** Soil Deposition (Avg. of Net Deposition Areas) =    -0.087 kg/m2 **
+      ** Maximum Soil Deposition  =    -0.171 kg/m2 at   21.76 meters **
+
+      Area of    Soil Dep   Soil Dep     MAX    MAX Dep   MIN   MIN Dep
+      Net Dep       MEAN     STDEV       Dep     Point    Dep    Point
+        (m)       (kg/m2)    (kg/m2)   (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+  20.53-  22.17   -0.087     0.075     -0.171   21.76    -0.005    22.17
+
+
+
+  C.  SOIL LOSS/DEPOSITION ALONG SLOPE PROFILE
+
+          Profile distances are from top to bottom of hillslope
+
+
+ distance soil  flow    distance   soil  flow    distance   soil  flow
+    (m)   loss  elem       (m)     loss  elem       (m)     loss  elem
+         (kg/m2)                  (kg/m2)                  (kg/m2)
+------------------------------------------------------------------------
+
+   0.41     0.189  1       14.37     0.278  1       28.33     0.146  1
+   0.82     0.189  1       14.78     0.308  1       28.74     0.220  1
+   1.23     0.189  1       15.19     0.331  1       29.15     0.282  1
+   1.64     0.189  1       15.60     0.279  1       29.56     0.331  1
+   2.05     0.189  1       16.01     0.220  1       29.97     0.371  1
+   2.46     0.199  1       16.42     0.183  1       30.38     0.398  1
+   2.87     0.217  1       16.83     0.156  1       30.79     0.332  1
+   3.28     0.226  1       17.24     0.135  1       31.20     0.260  1
+   3.69     0.235  1       17.65     0.176  1       31.61     0.206  1
+   4.11     0.244  1       18.06     0.268  1       32.02     0.163  1
+   4.52     0.245  1       18.47     0.331  1       32.43     0.129  1
+   4.93     0.219  1       18.88     0.377  1       32.84     0.120  1
+   5.34     0.208  1       19.29     0.414  1       33.25     0.126  1
+   5.75     0.202  1       19.70     0.386  1       33.66     0.128  1
+   6.16     0.199  1       20.12     0.196  1       34.07     0.128  1
+   6.57     0.196  1       20.53     0.057  1       34.48     0.127  1
+   6.98     0.190  1       20.94    -0.046  1       34.89     0.181  1
+   7.39     0.184  1       21.35    -0.127  1       35.30     0.327  1
+   7.80     0.180  1       21.76    -0.171  1       35.71     0.442  1
+   8.21     0.176  1       22.17    -0.005  1       36.13     0.535  1
+   8.62     0.173  1       22.58     0.146  1       36.54     0.614  1
+   9.03     0.189  1       22.99     0.254  1       36.95     0.658  1
+   9.44     0.213  1       23.40     0.337  1       37.36     0.583  1
+   9.85     0.226  1       23.81     0.401  1       37.77     0.511  1
+  10.26     0.235  1       24.22     0.345  1       38.18     0.457  1
+  10.67     0.241  1       24.63     0.250  1       38.59     0.413  1
+  11.08     0.226  1       25.04     0.184  1       39.00     0.376  1
+  11.49     0.169  1       25.45     0.135  1       39.41     0.320  1
+  11.90     0.134  1       25.86     0.096  1       39.82     0.264  1
+  12.32     0.110  1       26.27     0.084  1       40.23     0.219  1
+  12.73     0.091  1       26.68     0.103  1       40.64     0.180  1
+  13.14     0.089  1       27.09     0.115  1       41.05     0.146  1
+  13.55     0.173  1       27.50     0.122  1
+  13.96     0.236  1       27.91     0.127  1
+
+note:  (+) soil loss - detachment     (-) soil loss - deposition
+
+
+
+III. OFF SITE EFFECTS  OFF SITE EFFECTS  OFF SITE EFFECTS
+     ----------------  ----------------  ----------------
+
+     A.  AVERAGE ANNUAL SEDIMENT LEAVING PROFILE
+             9.321   kg/m of width
+              268.367     kg (based on profile width of     28.793      m)
+             2.270   t/ha (assuming contributions from     0.118     ha)
+
+
+     B.  SEDIMENT CHARACTERISTICS AND ENRICHMENT
+
+     Sediment particle information leaving profile
+-------------------------------------------------------------------------------
+                                 Particle Composition         Detached Fraction
+Class  Diameter  Specific  ---------------------------------  Sediment  In Flow
+         (mm)    Gravity   % Sand   % Silt   % Clay   % O.M.  Fraction  Exiting
+-------------------------------------------------------------------------------
+  1     0.002      2.60      0.0      0.0    100.0      1.5     0.062    0.358
+  2     0.010      2.65      0.0    100.0      0.0      0.0     0.043    0.149
+  3     0.030      1.80      0.0     53.3     46.7      0.7     0.228    0.367
+  4     0.476      1.60     67.5     19.7     12.8      0.2     0.541    0.117
+  5     0.200      2.65    100.0      0.0      0.0      0.0     0.126    0.009
+-------------------------------------------------------------------------------
+
+
+     Average annual SSA enrichment ratio leaving profile =   2.15
