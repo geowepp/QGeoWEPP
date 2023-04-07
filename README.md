@@ -45,3 +45,5 @@ References
 Renschler, C. S., & Zhang, H. (2020). Long-term, process-based, continuous simulations for a cluster of six smaller, nested rangeland watersheds near Tombstone, AZ (USA): Establishing a baseline for event-based runoff and sediment yields. Science of The Total Environment, 717, 137089. https://doi.org/10.1016/j.scitotenv.2020.137089 
 
 Zhang, H., Renschler, C. S., Nichols, M. H., & Nearing, M. A. (2021). Long-term, process-based, continuous simulations for a small, nested rangeland watershed near Tombstone, AZ (USA): Extending model validity to include soil redistribution. Science of The Total Environment, 792, 148403. https://doi.org/10.1016/j.scitotenv.2021.148403 
+
+Zhang, H., &amp; Renschler, C. S. (2023). Steps towards the validation of process-based long-term soil redistribution at the watershed scale using QGEOWEPP. Soil Erosion Research Under a Changing Climate, January 8-13, 2023, Aguadilla, Puerto Rico, USA. https://doi.org/10.13031/soil.23044 
