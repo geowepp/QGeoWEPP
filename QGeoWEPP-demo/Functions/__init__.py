@@ -6,7 +6,7 @@
  GeoWEPP (Geo-spatial interface of WEPP) for QGIS
                              -------------------
         begin                : 2021-6-11
-        copyright            : (C) 2022 by Han Zhang, Chris S. Renschler
+        copyright            : (C) 2022 by Han Zhang
         email                : support@geowepp.org
         git sha              : $Format:%H$
  ***************************************************************************/
