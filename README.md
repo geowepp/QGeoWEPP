@@ -31,7 +31,7 @@ Please install QGIS 3 or higher first, then follow the instruction below.
 ------------------------------------------------------------------------------
 Validation Dataset ready.
 
-1. A set of dataset that has been parameterized and validated for the Lucky Hills watershed in the Walnut Gulch Experimental Watershed (Renschler and Zhang, 2020; Zhang et al., 2021) is included. 
+1. A set of dataset that has been parameterized and validated for the Lucky Hills watershed in the Walnut Gulch Experimental Watershed (Renschler and Zhang, 2020; Zhang et al., 2021) is included. The dataset can be found under Measurement/ folder
 
 2. Input data: select 'Lucky Hills' in the 'Input data' function to use the parameterized Lucky Hills dataset for soil erosion simulation.
 
