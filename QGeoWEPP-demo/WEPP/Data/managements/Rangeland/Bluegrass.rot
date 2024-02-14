@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Mar 30 11:28:15 AM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Generic Bluegrass-up to .6 m tall
+Description {
+}
+Color = 248 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Blu_20003
+
+Operations {
+}

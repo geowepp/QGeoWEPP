@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Tue Jan 30 02:13:16 PM 2007
+#
+# Created with WEPPWIN verion: Jan 23 2007 
+#
+Version = 98.7
+Name = 5 Year old Perennial forest
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.For_6413 {0.000000, 250}
+
+Operations {
+}

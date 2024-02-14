@@ -1,0 +1,22 @@
+#
+# WEPP rotation saved on: Fri Nov 17 01:33:34 PM 2000
+#
+# Created with WEPPWIN verion: Nov 14 2000 
+#
+Version = 98.7
+Name = soybean - fall moldboad plow
+Description {
+}
+Color = 0 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Default
+
+Operations {
+4  25  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 1}
+5  1  1  1 Tillage	OpCropDef.TAND0002	{0.101600, 2}
+5  10  1  1 Tillage	OpCropDef.PLDDO	{0.050800, 2}
+5  10  1  1 Plant-Annual	CropDef.soybean2	 {0.762000}
+6  10  1  1 Tillage	OpCropDef.CULTMUSW	{0.076200, 2}
+10  15  1  1 Harvest-Annual	CropDef.soybean2	{}
+11  1  1  1 Tillage	OpCropDef.MOPL	{0.203200, 2}
+}

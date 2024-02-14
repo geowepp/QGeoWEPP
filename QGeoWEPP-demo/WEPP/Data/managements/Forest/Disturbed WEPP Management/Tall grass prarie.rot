@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Thu Oct 31 03:00:17 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Tall Grass prarie
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Tal_1955
+
+Operations {
+}

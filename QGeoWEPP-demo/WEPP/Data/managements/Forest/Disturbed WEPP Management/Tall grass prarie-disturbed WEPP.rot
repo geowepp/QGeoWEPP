@@ -1,0 +1,19 @@
+#
+# WEPP rotation saved on: Sun Oct 27 10:00:25 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Tall Grass prarie-disturbed WEPP
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Tal_6939
+
+Operations {
+8  31  1  1 Cut-Perennial	CropDef.(null)	{}
+9  1  1  1 Kill-Perennial	CropDef.TAL_4689	{}
+9  1  1  1 Residue-Removal	ResidueDef.Fir_1506	{}
+10  1  1  1 Plant-Perennial	CropDef.TAL_4689	 {0.800000}
+}

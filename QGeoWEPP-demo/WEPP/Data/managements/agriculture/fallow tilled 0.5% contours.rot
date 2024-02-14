@@ -1,0 +1,22 @@
+#
+# WEPP rotation saved on: Fri Nov 17 01:35:56 PM 2000
+#
+# Created with WEPPWIN verion: Nov 14 2000 
+#
+Version = 98.7
+Name = fallow tilled - with contours
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.fal_13380
+
+Operations {
+5  1  1  1 Start-Contour	ContourDef.0.5_9922	{}
+5  15  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+6  15  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+7  15  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+8  15  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+9  15  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+10  1  1  1 Stop-Contour	ContourDef.0.5_9922	{}
+}

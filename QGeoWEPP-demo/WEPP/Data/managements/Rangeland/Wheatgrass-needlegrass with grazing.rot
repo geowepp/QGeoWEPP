@@ -1,0 +1,16 @@
+#
+# WEPP rotation saved on: Fri Mar 30 05:29:32 PM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Generic Wheatgrass-Needlegrass with grazing
+Description {
+}
+Color = 248 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Whe_28929
+
+Operations {
+1  1  1  1 Start-Grazing	GrazeDef.1_3	{}
+}

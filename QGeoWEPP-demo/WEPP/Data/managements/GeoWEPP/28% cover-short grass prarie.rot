@@ -1,0 +1,17 @@
+#
+# WEPP rotation saved on: Wed Feb 19 07:40:18 PM 2003
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = 28% cover short grass prarie
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.28%_0590
+
+Operations {
+5  1  1  1 Plant-Annual	CropDef.28%_0443	 {1.200000}
+9  1  1  1 Harvest-Annual	CropDef.28%_0443	{}
+}

@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Feb 21 11:48:09 AM 2003
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Insloped unrutted forest road-bare ditch
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Ins_4741
+
+Operations {
+}

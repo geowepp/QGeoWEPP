@@ -1,0 +1,17 @@
+#
+# WEPP rotation saved on: Wed Feb 19 06:27:34 PM 2003
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = High severity fire every year-disturbed WEPP
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Hig_9241
+
+Operations {
+5  1  1  1 Plant-Annual	CropDef.Hig_8908	 {1.200000}
+8  15  1  1 Harvest-Annual	CropDef.Hig_8908	{}
+}

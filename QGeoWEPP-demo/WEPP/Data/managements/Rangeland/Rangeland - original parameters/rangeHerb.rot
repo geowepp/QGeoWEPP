@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Wed May 12 11:20:25 AM 1999
+#
+Version = 98.7
+Name = desert grass + herb app
+Description {
+}
+Color = 128 0 0
+LandUse = 2
+InitialConditions = IniRangeDef.Default
+
+Operations {
+2  1  1  1 Plant	RangeDef.DESRTGRS	{}
+6  1  4  1 Herbicide-App	ResidueDef.herbicide	{}
+}

@@ -1,0 +1,19 @@
+#
+# WEPP rotation saved on: Thu Mar 29 09:16:46 AM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Winter Wheat-no till
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.Aft_31305
+
+Operations {
+8  15  1  1 Harvest-Annual	CropDef.Whe_27068	{}
+9  25  1  1 Tillage	OpCropDef.ANHYDROS	{0.050000, 2}
+10  1  1  1 Tillage	OpCropDef.DRNTSRFC	{0.050000, 2}
+10  1  1  1 Plant-Annual	CropDef.Whe_27068	 {1.200000}
+}

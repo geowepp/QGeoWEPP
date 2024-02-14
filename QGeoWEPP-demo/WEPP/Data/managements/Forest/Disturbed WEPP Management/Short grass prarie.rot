@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Thu Oct 31 02:59:07 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Short grass prarie
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Sho_1583
+
+Operations {
+}

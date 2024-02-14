@@ -1,0 +1,24 @@
+#
+# WEPP rotation saved on: Thu Mar 29 07:48:51 AM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Spring Barley, conventional tillage
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.Aft_12889
+
+Operations {
+4  1  1  1 Tillage	OpCropDef.FIEL0001	{0.050000, 2}
+4  3  1  1 Tillage	OpCropDef.FIEL0001	{0.050000, 2}
+4  3  1  1 Tillage	OpCropDef.HASPTCT	{0.050000, 2}
+4  5  1  1 Tillage	OpCropDef.ANHYDROS	{0.050000, 2}
+4  5  1  1 Tillage	OpCropDef.HASPTCT	{0.050000, 2}
+4  10  1  1 Tillage	OpCropDef.DRDDO	{0.050000, 2}
+4  10  1  1 Plant-Annual	CropDef.Bar_8319	 {1.200000}
+8  15  1  1 Harvest-Annual	CropDef.Bar_8319	{}
+10  15  1  1 Tillage	OpCropDef.CHISCOST	{0.050000, 2}
+}

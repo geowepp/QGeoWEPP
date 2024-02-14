@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Oct 25 06:53:58 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Forest Buffer
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.For_2466
+
+Operations {
+}

@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Nov 01 12:28:51 AM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Forest road-insloped-vegetated or rocked ditch
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Roa_9817
+
+Operations {
+}

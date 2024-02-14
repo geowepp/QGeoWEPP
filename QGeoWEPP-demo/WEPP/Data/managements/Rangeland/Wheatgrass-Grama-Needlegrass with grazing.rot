@@ -1,0 +1,16 @@
+#
+# WEPP rotation saved on: Fri Mar 30 05:28:38 PM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Wheatgrass-Grama-Needlegrass with grazing 1 cow/ 5 ha
+Description {
+}
+Color = 0 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Whe_32482
+
+Operations {
+1  1  1  1 Start-Grazing	GrazeDef.1_c_25382	{}
+}

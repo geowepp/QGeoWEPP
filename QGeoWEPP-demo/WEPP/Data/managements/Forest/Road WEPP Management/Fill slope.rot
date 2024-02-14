@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Oct 25 07:01:45 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Fill slope-limited vegetation growth
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Fil_9924
+
+Operations {
+}

@@ -1,0 +1,49 @@
+#
+# WEPP rotation saved on: Wed Feb 28 03:46:29 PM 2001
+#
+# Created with WEPPWIN verion: Feb 28 2001 
+#
+Version = 98.7
+Name = corn,soybean,wheat, alfalfa 4yrs (consv till)
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.gra_6072
+
+Operations {
+4  15  1  1 Kill-Perennial	CropDef.(null)	{}
+4  15  1  1 Tillage	OpCropDef.CHIS0006	{0.152400, 2}
+4  20  1  1 Tillage	OpCropDef.FIEL0001	{0.050800, 2}
+4  21  1  1 Tillage	OpCropDef.DITAFI9	{0.050800, 2}
+4  22  1  1 Tillage	OpCropDef.HAPR	{0.050800, 2}
+5  10  1  1 Tillage	OpCropDef.PLDDO	{0.050800, 2}
+5  10  1  1 Plant-Annual	CropDef.CORNSD	 {0.800000}
+5  20  1  1 Tillage	OpCropDef.ROW_0004	{0.050800, 2}
+10  15  1  1 Harvest-Annual	CropDef.CORNSD	{}
+10  20  1  1 Tillage	OpCropDef.CHIS0006	{0.203200, 2}
+5  1  2  1 Tillage	OpCropDef.FIEL0001	{0.050800, 2}
+5  10  2  1 Tillage	OpCropDef.DRDDO	{0.050800, 2}
+5  10  2  1 Plant-Annual	CropDef.SOYBEASD	 {0.254000}
+10  15  2  1 Harvest-Annual	CropDef.SOYBEASD	{}
+10  20  2  1 Tillage	OpCropDef.CULTMUSW	{0.050000, 2}
+10  20  2  1 Tillage	OpCropDef.DRDDO	{0.101600, 2}
+10  20  2  1 Plant-Annual	CropDef.WHEATSD	 {0.203200}
+7  2  3  1 Harvest-Annual	CropDef.WHEATSD	{}
+7  5  3  1 Tillage	OpCropDef.CHIS0006	{0.203200, 2}
+7  5  3  1 Tillage	OpCropDef.FIEL0001	{0.076200, 2}
+7  6  3  1 Tillage	OpCropDef.PLDDO	{0.050800, 2}
+7  6  3  1 Plant-Perennial	CropDef.ALFALFA	 {0.000000}
+6  1  4  1 Cut-Perennial	CropDef.ALFALFA	{}
+7  15  4  1 Cut-Perennial	CropDef.ALFALFA	{}
+9  1  4  1 Cut-Perennial	CropDef.ALFALFA	{}
+6  1  5  1 Cut-Perennial	CropDef.ALFALFA	{}
+7  15  5  1 Cut-Perennial	CropDef.ALFALFA	{}
+9  1  5  1 Cut-Perennial	CropDef.ALFALFA	{}
+6  1  6  1 Cut-Perennial	CropDef.ALFALFA	{}
+7  15  6  1 Cut-Perennial	CropDef.ALFALFA	{}
+9  1  6  1 Cut-Perennial	CropDef.ALFALFA	{}
+6  1  7  1 Cut-Perennial	CropDef.ALFALFA	{}
+7  15  7  1 Cut-Perennial	CropDef.ALFALFA	{}
+9  1  7  1 Cut-Perennial	CropDef.ALFALFA	{}
+}

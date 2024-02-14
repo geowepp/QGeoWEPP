@@ -1,0 +1,46 @@
+#
+# WEPP rotation saved on: Tue Apr 10 10:26:05 AM 2001
+#
+# Created with WEPPWIN verion: Apr  6 2001 
+#
+Version = 98.7
+Name = Mountain Big Sagebrush-up to 1 m, with grazing and burning
+Description {
+}
+Color = 248 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Mou_21685
+
+Operations {
+1  2  1  1 Start-Grazing	GrazeDef.1_c_25382	{}
+8  31  1  1 Cut-Perennial	CropDef.(null)	{}
+1  3  2  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  3  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  4  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  5  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  6  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  2  7  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  8  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  9  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  10  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  11  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  12  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  2  13  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  14  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  15  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  16  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  17  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  18  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  2  19  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  20  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  21  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  22  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  23  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  24  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  2  25  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  26  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  27  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  28  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  29  1 Start-Grazing	GrazeDef.1_c_25382	{}
+1  3  30  1 Start-Grazing	GrazeDef.1_c_25382	{}
+}

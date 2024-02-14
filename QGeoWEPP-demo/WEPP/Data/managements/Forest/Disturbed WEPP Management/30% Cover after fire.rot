@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Thu Feb 10 03:24:55 PM 2005
+#
+# Created with WEPPWIN verion: Mar 17 2004 
+#
+Version = 98.7
+Name = 30% Cover after Fire
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.30%_0870
+
+Operations {
+}

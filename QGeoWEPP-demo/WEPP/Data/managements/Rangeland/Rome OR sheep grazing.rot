@@ -1,0 +1,16 @@
+#
+# WEPP rotation saved on: Wed Mar 14 09:07:08 AM 2001
+#
+# Created with WEPPWIN verion: Mar 12 2001 
+#
+Version = 98.7
+Name = Big Sacaton Grassland-Rome OR
+Description {
+}
+Color = 0 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Big_15575
+
+Operations {
+1  1  1  1 Start-Grazing	GrazeDef.1	{}
+}

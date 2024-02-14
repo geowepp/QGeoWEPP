@@ -1,0 +1,23 @@
+#
+# WEPP rotation saved on: Thu Mar 29 09:23:54 AM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Winter Wheat-mulch tillage
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.Aft_11389
+
+Operations {
+8  1  1  1 Harvest-Annual	CropDef.Whe_27068	{}
+9  1  1  1 Tillage	OpCropDef.CHISCOST	{0.050000, 2}
+9  15  1  1 Tillage	OpCropDef.FIEL0001	{0.050000, 2}
+9  20  1  1 Tillage	OpCropDef.HASP	{0.050000, 2}
+9  25  1  1 Tillage	OpCropDef.ANHYDROS	{0.050000, 2}
+9  25  1  1 Tillage	OpCropDef.HASPTCT	{0.050000, 2}
+10  1  1  1 Tillage	OpCropDef.DRDDO	{0.050000, 2}
+10  1  1  1 Plant-Annual	CropDef.Whe_27068	 {1.200000}
+}

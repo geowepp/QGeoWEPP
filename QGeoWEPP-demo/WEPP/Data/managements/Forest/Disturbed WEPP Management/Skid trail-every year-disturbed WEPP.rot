@@ -1,0 +1,19 @@
+#
+# WEPP rotation saved on: Thu Oct 31 03:02:38 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Skid trail-every year-disturbed WEPP
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Ski_6991
+
+Operations {
+6  30  1  1 Cut-Perennial	CropDef.(null)	{}
+7  1  1  1 Kill-Perennial	CropDef.ski_1897	{}
+7  1  1  1 Residue-Removal	ResidueDef.Rem_9695	{}
+9  1  1  1 Plant-Perennial	CropDef.ski_1897	 {1.200000}
+}

@@ -1,0 +1,18 @@
+#
+# WEPP rotation saved on: Mon Sep 17 09:52:29 AM 2012
+#
+# Created with WEPPWIN verion: Sep  6 2012 
+#
+Version = 98.7
+Name = continous fallow - drained
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.fal_13380 {0.000000, 0}
+
+Drainage {
+    0 DrainDef.clay3
+}
+Operations {
+}

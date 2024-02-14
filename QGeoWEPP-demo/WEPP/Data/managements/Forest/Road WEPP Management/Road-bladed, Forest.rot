@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Sun Feb 23 09:41:24 PM 2003
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Forest road bladed annually on June 1
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Roa_9817
+
+Operations {
+}

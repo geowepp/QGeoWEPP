@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Fri Nov 01 12:27:31 AM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Forest road-no vegetation, outsloped rutted
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Rut_6694
+
+Operations {
+}

@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Thu Oct 31 03:01:32 PM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Tree, 20 Year old forest
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Tre_2239
+
+Operations {
+}

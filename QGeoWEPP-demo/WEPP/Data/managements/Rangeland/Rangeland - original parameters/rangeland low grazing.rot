@@ -1,0 +1,17 @@
+#
+# WEPP rotation saved on: Sat Nov 18 05:36:53 PM 2000
+#
+# Created with WEPPWIN verion: Nov 14 2000 
+#
+Version = 98.7
+Name = Mountain big sagebrush-Poor condition-2 cow/calf per section 
+Description {
+}
+Color = 128 0 0
+LandUse = 2
+InitialConditions = IniRangeDef.Mou_27599
+
+Operations {
+1  1  1  1 Plant        RangeDef.Mou_28347      {}
+1  1  1  1 Start-Grazing        GrazeDef.Cow_13164      {}
+}

@@ -1,0 +1,19 @@
+#
+# WEPP rotation saved on: Mon Oct 28 08:26:03 AM 2002
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Low severity fire every year-disturbed WEPP
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Tre_6854
+
+Operations {
+8  31  1  1 Cut-Perennial	CropDef.veg_2141	{}
+9  1  1  1 Kill-Perennial	CropDef.veg_2141	{}
+9  2  1  1 Residue-Removal	ResidueDef.Fir_0502	{}
+10  1  1  1 Plant-Perennial	CropDef.veg_2141	 {1.200000}
+}

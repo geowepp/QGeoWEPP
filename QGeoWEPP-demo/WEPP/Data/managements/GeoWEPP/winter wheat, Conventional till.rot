@@ -1,0 +1,25 @@
+#
+# WEPP rotation saved on: Thu Mar 29 08:23:35 AM 2001
+#
+# Created with WEPPWIN verion: Mar 14 2001 
+#
+Version = 98.7
+Name = Winter Wheat-Conventional
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.Aft_31305
+
+Operations {
+8  1  1  1 Harvest-Annual	CropDef.Whe_27068	{}
+9  1  1  1 Tillage	OpCropDef.MOPLUF	{0.050000, 2}
+9  15  1  1 Tillage	OpCropDef.DIOFF10	{0.050000, 2}
+9  18  1  1 Tillage	OpCropDef.FIEL0001	{0.050000, 2}
+9  18  1  1 Tillage	OpCropDef.HASP	{0.050000, 2}
+9  20  1  1 Tillage	OpCropDef.FIEL0001	{0.050000, 2}
+9  20  1  1 Tillage	OpCropDef.HASP	{0.050000, 2}
+9  25  1  1 Tillage	OpCropDef.HASPTCT	{0.050000, 2}
+10  1  1  1 Tillage	OpCropDef.DRDDO	{0.050000, 2}
+10  1  1  1 Plant-Annual	CropDef.Whe_27068	 {1.200000}
+}

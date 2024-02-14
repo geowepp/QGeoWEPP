@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Mon Feb 24 09:35:34 AM 2003
+#
+# Created with WEPPWIN verion: Jul 31 2002 
+#
+Version = 98.7
+Name = Insloped road-no vegetation growth
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.Ins_4741
+
+Operations {
+}

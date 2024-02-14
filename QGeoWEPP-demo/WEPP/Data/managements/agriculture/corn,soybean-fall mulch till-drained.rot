@@ -1,0 +1,32 @@
+#
+# WEPP rotation saved on: Tue Sep 18 08:53:16 AM 2012
+#
+# Created with WEPPWIN verion: Sep 17 2012 
+#
+Version = 98.7
+Name = corn,soybean - fall chisel plow - drained
+Description {
+}
+Color = 0 255 0
+LandUse = 1
+InitialConditions = IniCropDef.Default {0.000000, 0}
+
+Drainage {
+    0 DrainDef.clay3
+}
+Operations {
+4  25  1  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 2}
+5  5  1  1 Tillage	OpCropDef.TAND0002	{0.101600, 2}
+5  10  1  1 Tillage	OpCropDef.PLDDO	{0.050800, 2}
+5  10  1  1 Plant-Annual	CropDef.Corn	 {0.762000}
+6  5  1  1 Tillage	OpCropDef.CULTMUSW	{0.076200, 2}
+10  15  1  1 Harvest-Annual	CropDef.Corn	{}
+11  1  1  1 Tillage	OpCropDef.CHISSTSP	{0.203200, 1}
+4  25  2  1 Tillage	OpCropDef.FCSTACDP	{0.101600, 1}
+5  1  2  1 Tillage	OpCropDef.TAND0002	{0.101600, 2}
+5  10  2  1 Tillage	OpCropDef.PLDDO	{0.050800, 2}
+5  10  2  1 Plant-Annual	CropDef.soybean2	 {0.762000}
+6  5  2  1 Tillage	OpCropDef.CULTMUSW	{0.101600, 2}
+10  15  2  1 Harvest-Annual	CropDef.soybean2	{}
+11  1  2  1 Tillage	OpCropDef.CHISSTSP	{0.203200, 2}
+}
