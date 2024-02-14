@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Thu Jul 31 09:28:27 AM 2008
+#
+# Created with WEPPWIN verion: May 23 2006 
+#
+Version = 98.7
+Name = Pavement
+Description {
+}
+Color = 192 192 192
+LandUse = 1
+InitialConditions = IniCropDef.Pav_8192
+
+Operations {
+}

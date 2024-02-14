@@ -1,0 +1,17 @@
+#
+# WEPP rotation saved on: Tue Jun 18 10:53:09 AM 2013
+#
+# Created with WEPPWIN verion: Sep 17 2012 
+#
+Version = 98.7
+Name = grass (1-month construction june)
+Description {
+}
+Color = 0 128 0
+LandUse = 1
+InitialConditions = IniCropDef.gra_3425 {0.000000, 0}
+
+Operations {
+8  1  1  1 Kill-Perennial	CropDef.Gra_4074	{}
+9  1  1  1 Plant-Perennial	CropDef.Gra_4074	 {1.200000,0}
+}

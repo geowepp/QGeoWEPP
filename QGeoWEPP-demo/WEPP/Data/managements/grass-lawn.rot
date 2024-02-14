@@ -1,0 +1,30 @@
+#
+# WEPP rotation saved on: Wed Sep 03 04:05:03 PM 2008
+#
+# Created with WEPPWIN verion: Aug  4 2008 
+#
+Version = 98.7
+Name = grass - short lawn/park with mowings
+Description {
+}
+Color = 0 255 0
+LandUse = 1
+InitialConditions = IniCropDef.sho_4910 {0.000000, 0}
+
+Operations {
+4  1  1  1 Cut-Perennial	CropDef.(null)	{}
+4  15  1  1 Cut-Perennial	CropDef.(null)	{}
+5  1  1  1 Cut-Perennial	CropDef.(null)	{}
+5  15  1  1 Cut-Perennial	CropDef.(null)	{}
+6  1  1  1 Cut-Perennial	CropDef.(null)	{}
+6  15  1  1 Cut-Perennial	CropDef.(null)	{}
+7  1  1  1 Cut-Perennial	CropDef.(null)	{}
+7  15  1  1 Cut-Perennial	CropDef.(null)	{}
+8  1  1  1 Cut-Perennial	CropDef.(null)	{}
+8  15  1  1 Cut-Perennial	CropDef.(null)	{}
+9  1  1  1 Cut-Perennial	CropDef.(null)	{}
+9  15  1  1 Cut-Perennial	CropDef.(null)	{}
+10  1  1  1 Cut-Perennial	CropDef.(null)	{}
+10  15  1  1 Cut-Perennial	CropDef.(null)	{}
+11  1  1  1 Cut-Perennial	CropDef.(null)	{}
+}

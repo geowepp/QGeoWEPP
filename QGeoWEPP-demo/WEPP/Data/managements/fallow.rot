@@ -1,0 +1,15 @@
+#
+# WEPP rotation saved on: Wed Nov 22 09:04:00 AM 2000
+#
+# Created with WEPPWIN verion: Nov 19 2000 
+#
+Version = 98.7
+Name = continous fallow
+Description {
+}
+Color = 128 128 255
+LandUse = 1
+InitialConditions = IniCropDef.fal_13380
+
+Operations {
+}
