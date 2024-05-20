@@ -13,8 +13,9 @@ Getresult
 /***************************************************************************
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE as        *
- *   published by the Free Software Foundation.                            *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
 """
@@ -115,17 +116,18 @@ class GetResultsBtn():
                 runofffnc = QgsColorRampShader()
                 runofffnc.setColorRampType(QgsColorRampShader.Discrete)
                 
-                colDicRunoff = {'Runoffmax': '#b30900', 'Runoff4': '#ff2216', 'Runoff3': '#ff7f78', 'Runoff2': '#fedcda', 'Runoff1': '#7ef014',
-                                    'Runoff0.75':'#66c80c', 'Runoff0.5':'#4e9909', 'Runoff0.25':'#376b06'}
-                valueListRunoff = [25, 50, 75, 100, 200, 300, 400, maxRunoff]
-                lstRunoff = [QgsColorRampShader.ColorRampItem(valueListRunoff[0], QColor(colDicRunoff['Runoff0.25']), '0T <= Runoff < 1/4T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[1], QColor(colDicRunoff['Runoff0.5']), '1/4T <= Runoff < 1/2T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[2], QColor(colDicRunoff['Runoff0.75']), '1/2T <= Runoff < 3/4T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[3], QColor(colDicRunoff['Runoff1']), '3/4T <= Runoff < 1T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[4], QColor(colDicRunoff['Runoff2']), '1T <= Runoff < 2T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[5], QColor(colDicRunoff['Runoff3']), '2T <= Runoff < 3T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[6], QColor(colDicRunoff['Runoff4']), '3T <= Runoff < 4T'),
-                                 QgsColorRampShader.ColorRampItem(valueListRunoff[7], QColor(colDicRunoff['Runoffmax']), 'Runoff >= 4T')]
+                colDicRunoff = {'Runoffmax': '#481610', 'Runoff4': '#793329', 'Runoff3': '#a5564a', 'Runoff2': '#a58681', 'Runoff1': '#0786fd',
+                                    'Runoff0.75':'#3fa1fd', 'Runoff0.5':'#74b9fd', 'Runoff0.25':'#b0d5fe', 'Runoff0.01':'#c6c6c6'}
+                valueListRunoff = [1, 25, 50, 75, 100, 200, 300, 400, maxRunoff]
+                lstRunoff = [QgsColorRampShader.ColorRampItem(valueListRunoff[0], QColor(colDicRunoff['Runoff0.01']),'0T <= Runoff < 1/100T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[1], QColor(colDicRunoff['Runoff0.25']), '0/100T <= Runoff < 1/4T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[2], QColor(colDicRunoff['Runoff0.5']), '1/4T <= Runoff < 1/2T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[3], QColor(colDicRunoff['Runoff0.75']), '1/2T <= Runoff < 3/4T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[4], QColor(colDicRunoff['Runoff1']), '3/4T <= Runoff < 1T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[5], QColor(colDicRunoff['Runoff2']), '1T <= Runoff < 2T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[6], QColor(colDicRunoff['Runoff3']), '2T <= Runoff < 3T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[7], QColor(colDicRunoff['Runoff4']), '3T <= Runoff < 4T'),
+                                 QgsColorRampShader.ColorRampItem(valueListRunoff[8], QColor(colDicRunoff['Runoffmax']), 'Runoff >= 4T')]
                 runofffnc.setColorRampItemList(lstRunoff)
                 runoffshader = QgsRasterShader()
                 runoffshader.setRasterShaderFunction(runofffnc)
@@ -156,16 +158,17 @@ class GetResultsBtn():
                 sedfnc.setColorRampType(QgsColorRampShader.Discrete)
 
                 SedcolDic = {'Sed0.25':'#376b06', 'Sed0.5':'#4e9909','Sed0.75':'#66c80c','Sed1':'#7ef014','Sed2':'#fedcda',
-                              'Sed3':'#ff7f78','Sed4':'#ff2216','Sedmax':'#b30900'}
-                SedvalueList =[0.25, 0.5, 0.75, 1, 2, 3, 4, sedmax]
-                Sedlst = [ QgsColorRampShader.ColorRampItem(SedvalueList[0], QColor(SedcolDic['Sed0.25']),'0T <= Sediment Yield < 1/4T'), 
-                            QgsColorRampShader.ColorRampItem(SedvalueList[1], QColor(SedcolDic['Sed0.5']),'1/4T <= Sediment Yield < 1/2T'), 
-                            QgsColorRampShader.ColorRampItem(SedvalueList[2], QColor(SedcolDic['Sed0.75']),'1/2T <= Sediment Yield < 3/4T'),
-                            QgsColorRampShader.ColorRampItem(SedvalueList[3], QColor(SedcolDic['Sed1']),'3/4T <= Sediment Yield < 1T'),
-                            QgsColorRampShader.ColorRampItem(SedvalueList[4], QColor(SedcolDic['Sed2']),'1T <= Sediment Yield < 2T'),
-                            QgsColorRampShader.ColorRampItem(SedvalueList[5], QColor(SedcolDic['Sed3']),'2T <= Sediment Yield < 3T'),
-                            QgsColorRampShader.ColorRampItem(SedvalueList[6], QColor(SedcolDic['Sed4']),'3T <= Sediment Yield < 4T'),
-                            QgsColorRampShader.ColorRampItem(SedvalueList[7], QColor(SedcolDic['Sedmax']),'Sediment Yield >= 4T')
+                              'Sed3':'#ff7f78','Sed4':'#ff2216','Sedmax':'#b30900','Sed0.01':'#c6c6c6'}
+                SedvalueList =[0.001, 0.25, 0.5, 0.75, 1, 2, 3, 4, sedmax]
+                Sedlst = [ QgsColorRampShader.ColorRampItem(SedvalueList[0], QColor(SedcolDic['Sed0.01']),'0T <= Sediment Yield < 1/100T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[1], QColor(SedcolDic['Sed0.25']),'0/100T <= Sediment Yield < 1/4T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[2], QColor(SedcolDic['Sed0.5']),'1/4T <= Sediment Yield < 1/2T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[3], QColor(SedcolDic['Sed0.75']),'1/2T <= Sediment Yield < 3/4T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[4], QColor(SedcolDic['Sed1']),'3/4T <= Sediment Yield < 1T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[5], QColor(SedcolDic['Sed2']),'1T <= Sediment Yield < 2T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[6], QColor(SedcolDic['Sed3']),'2T <= Sediment Yield < 3T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[7], QColor(SedcolDic['Sed4']),'3T <= Sediment Yield < 4T'),
+                            QgsColorRampShader.ColorRampItem(SedvalueList[8], QColor(SedcolDic['Sedmax']),'Sediment Yield >= 4T')
                             ]
                 sedfnc.setColorRampItemList(Sedlst)
                 sedshader = QgsRasterShader()
@@ -199,21 +202,22 @@ class GetResultsBtn():
                
                 colDicLoss = {'Lossmax':'#5b3361', 'Loss4':'#a45daf','Loss3':'#c03bd4','Loss2':'#e5a4ee',
                             'Loss1':'#b6390b','Loss0.75':'#f14628','Loss0.5':'#f5864e','Loss0.25':'#eca37e',
-                            'Loss0':'#f3e483','Loss-1':'#ffe90c','Loss-2':'#69b9e6','Loss-3':'#428fbf','Loss-4':'#1c4a66'}
-                valueListLoss =[-4, -3, -2, -1, 0, 0.25, 0.5, 0.75, 1, 2, 3, 4, maxLoss]
+                            'Loss0.01':'#f3e483', 'Loss00':'#c6c6c6','Loss-1':'#ffe90c','Loss-2':'#69b9e6','Loss-3':'#428fbf','Loss-4':'#1c4a66'}
+                valueListLoss =[-4, -3, -2, -1, -0.01, 0.01, 0.25, 0.5, 0.75, 1, 2, 3, 4, maxLoss]
                 lstLoss = [ QgsColorRampShader.ColorRampItem(valueListLoss[0], QColor(colDicLoss['Loss-4']),'Deposition > 4T'), 
                             QgsColorRampShader.ColorRampItem(valueListLoss[1], QColor(colDicLoss['Loss-3']),'3T < Deposition <= 4T'),
                             QgsColorRampShader.ColorRampItem(valueListLoss[2], QColor(colDicLoss['Loss-2']),'2T < Deposition <= 3T'),
                             QgsColorRampShader.ColorRampItem(valueListLoss[3], QColor(colDicLoss['Loss-1']),'1T < Deposition <= 2T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[4], QColor(colDicLoss['Loss0']),'0T < Deposition <= 1T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[5], QColor(colDicLoss['Loss0.25']),'0T <= Soil Loss < 0.25T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[6], QColor(colDicLoss['Loss0.5']),'0.25T <= Soil Loss < 0.5T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[7], QColor(colDicLoss['Loss0.75']),'0.5T <= Soil Loss < 0.75T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[8], QColor(colDicLoss['Loss1']),'0.75T <= Soil Loss < 1T'), 
-                            QgsColorRampShader.ColorRampItem(valueListLoss[9], QColor(colDicLoss['Loss2']),'1T <= Soil Loss < 2T'), 
-                            QgsColorRampShader.ColorRampItem(valueListLoss[10], QColor(colDicLoss['Loss3']),'2T <= Soil Loss < 3T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[11], QColor(colDicLoss['Loss4']),'3T <= Soil Loss < 4T'),
-                            QgsColorRampShader.ColorRampItem(valueListLoss[12], QColor(colDicLoss['Lossmax']),'Soil Loss >= 4T')
+                            QgsColorRampShader.ColorRampItem(valueListLoss[4], QColor(colDicLoss['Loss0.01']),'0/100T < Deposition <= 1T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[5], QColor(colDicLoss['Loss00']),'-0/100T <= Soil Loss < 0/100T'), 
+                            QgsColorRampShader.ColorRampItem(valueListLoss[6], QColor(colDicLoss['Loss0.25']),'0/100T <= Soil Loss < 1/4T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[7], QColor(colDicLoss['Loss0.5']),'1/4T <= Soil Loss < 1/2T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[8], QColor(colDicLoss['Loss0.75']),'1/2T <= Soil Loss < 3/4T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[9], QColor(colDicLoss['Loss1']),'3/4T <= Soil Loss < 1T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[10], QColor(colDicLoss['Loss2']),'1T <= Soil Loss < 2T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[11], QColor(colDicLoss['Loss3']),'2T <= Soil Loss < 3T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[12], QColor(colDicLoss['Loss4']),'3T <= Soil Loss < 4T'),
+                            QgsColorRampShader.ColorRampItem(valueListLoss[13], QColor(colDicLoss['Lossmax']),'Soil Loss >= 4T')
                             ]
                 lossfnc.setColorRampItemList(lstLoss)
                 lossshader = QgsRasterShader()
