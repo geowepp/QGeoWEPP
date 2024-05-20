@@ -6,15 +6,16 @@ Display Chart
                               -------------------
         begin                : 2021-06-11
         git sha              : $Format:%H$
-        author               : (C) 2022 by Han Zhang
+        author               : (C) 2022 by Han Zhang, Chris S. Renschler
         email                : support@geowepp.org
  ***************************************************************************/
 
 /***************************************************************************
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE as        *
- *   published by the Free Software Foundation.                            *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
 """
@@ -73,7 +74,7 @@ class DisplayChartBtn():
                     legend.setLabelTextColor(0, 0, 0)
                     self.displaychart.graphicsView.addItem(plotprecip)
                     self.displaychart.graphicsView.setLabel('left', 'Precipitation (mm)', unit = 'mm')
-                    self.displaychart.graphicsView.setLabel('bottom', 'Days in Simulation')     
+                    self.displaychart.graphicsView.setLabel('bottom', 'Number of Events')
                     self.displaychart.graphicsView.getAxis('left').setTextPen(color = (0, 0, 0)) 
                     self.displaychart.graphicsView.getAxis('bottom').setTextPen(color = (0, 0, 0))     
                 if self.displaychart.radioButton_runoff.isChecked() == True:
@@ -83,7 +84,7 @@ class DisplayChartBtn():
                     legend.setLabelTextColor(0, 0, 0)
                     self.displaychart.graphicsView.addItem(plotrunoff)
                     self.displaychart.graphicsView.setLabel('left', 'Runoff (mm)', unit = 'mm')
-                    self.displaychart.graphicsView.setLabel('bottom', 'Day of Simulation')
+                    self.displaychart.graphicsView.setLabel('bottom', 'Number of Events')
                     self.displaychart.graphicsView.getAxis('left').setTextPen(color = (0, 0, 0)) 
                     self.displaychart.graphicsView.getAxis('bottom').setTextPen(color = (0, 0, 0))     
                 if self.displaychart.radioButton_peak.isChecked() == True:
@@ -93,7 +94,7 @@ class DisplayChartBtn():
                     legend.setLabelTextColor(0, 0, 0)
                     self.displaychart.graphicsView.addItem(plotpeak)
                     self.displaychart.graphicsView.setLabel('left', 'Peak Runoff (mm/s)', unit = 'mm/s')
-                    self.displaychart.graphicsView.setLabel('bottom', 'Day of Simulation')
+                    self.displaychart.graphicsView.setLabel('bottom', 'Number of Events')
                     self.displaychart.graphicsView.getAxis('left').setTextPen(color = (0, 0, 0)) 
                     self.displaychart.graphicsView.getAxis('bottom').setTextPen(color = (0, 0, 0))   
                 if self.displaychart.radioButton_sed.isChecked() == True:
@@ -103,7 +104,7 @@ class DisplayChartBtn():
                     legend.setLabelTextColor(0, 0, 0)
                     self.displaychart.graphicsView.addItem(plotsed)
                     self.displaychart.graphicsView.setLabel('left', 'Sediment Yield (kg)', unit = 'kg')
-                    self.displaychart.graphicsView.setLabel('bottom', 'Day of Simulation')
+                    self.displaychart.graphicsView.setLabel('bottom', 'Number of Events')
                     self.displaychart.graphicsView.getAxis('left').setTextPen(color = (0, 0, 0)) 
                     self.displaychart.graphicsView.getAxis('bottom').setTextPen(color = (0, 0, 0))  
             else:
