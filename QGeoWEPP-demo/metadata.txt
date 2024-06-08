@@ -12,11 +12,11 @@ qgisMinimumVersion=3.0
 description=GeoWEPP for QGIS
 version=1.0
 author= Han Zhang, Chris S. Renschler
-email=support@geowepp.org
+email=chris.renschler@usda.gov
 
 about=This is GeoWEPP (Geospatial interface for Water Erosion Prediction Project) for QGIS.
-tracker=github.com
-repository=github.com
+tracker=https://github.com/geowepp/QGeoWEPP.git
+repository=https://github.com/geowepp/QGeoWEPP.git
 # End of mandatory metadata
 
 # Recommended items:
@@ -27,7 +27,7 @@ repository=github.com
 # Tags are comma separated with spaces allowed
 tags=GeoWEPP, WEPP, Soil Erosion
 
-homepage=github.com
+homepage=https://geowepp.org
 category=Plugins
 icon=logo.png
 # experimental flag
