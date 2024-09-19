@@ -1,6 +1,6 @@
 # QGeoWEPP-demo
 
-Welcome to QGeoWEPP, a geo-spaital interface for Water Erosion Prediction Project based on QGIS3. 
+Welcome to QGeoWEPP, a geo-spatial interface for Water Erosion Prediction Project based on QGIS3. 
 
 QGeoWEPP was written by Han Zhang. This interface was developed based on the GeoWEPP for ArcGIS developed by Chris S. Renschler (written in C++), migrated to QGIS using Python, with more functions to provide higher flexibility for soil erosion studies.
 
@@ -16,7 +16,7 @@ INSTALLATION AND RUNNING.
 
 Please install QGIS 3 or higher first, then follow the instruction below.
 
-1. Download the QGeoWEPP-demo as ZIP file.
+1. Download the QGeoWEPP-main as ZIP file.
 
 2. Unzip the file, compress the 'QGeoWEPP-demo' folder to .ZIP file.
 
@@ -47,3 +47,5 @@ Renschler, C. S., & Zhang, H. (2020). Long-term, process-based, continuous simul
 Zhang, H., Renschler, C. S., Nichols, M. H., & Nearing, M. A. (2021). Long-term, process-based, continuous simulations for a small, nested rangeland watershed near Tombstone, AZ (USA): Extending model validity to include soil redistribution. Science of The Total Environment, 792, 148403. https://doi.org/10.1016/j.scitotenv.2021.148403 
 
 Zhang, H., &amp; Renschler, C. S. (2023). Steps towards the validation of process-based long-term soil redistribution at the watershed scale using QGEOWEPP. Soil Erosion Research Under a Changing Climate, January 8-13, 2023, Aguadilla, Puerto Rico, USA. https://doi.org/10.13031/soil.23044 
+
+Han Zhang, Chris S. Renschler (2024). QGeoWEPP: An open-source geospatial interface to enable high-resolution watershed-based soil erosion assessment. Environmental Modelling & Software, Volume 179, 2024, 106118, ISSN 1364-8152, https://doi.org/10.1016/j.envsoft.2024.106118.
