@@ -26,6 +26,10 @@ Please install QGIS 3 or higher first, then follow the instruction below.
 
 4. Go back to Plugins manager, click 'Installed', mark the QGeoWEPP plugin on (if it is not marked automatically). You should be able to see the menu bar for QGeoWEPP.
 
+5. The plugin has 2 Python module dependencies that may require installation if not already installed. The modules pywinauto and pyqtgraph can be installed from a command window using the pip commands:
+   ```pip install pywinauto
+   pip install pyqtgraph```
+
 
 
 ------------------------------------------------------------------------------
